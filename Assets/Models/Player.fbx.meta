@@ -1,0 +1,3285 @@
+fileFormatVersion: 2
+guid: c149da15112f02441961e0fbaac4cfdf
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 0
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Arrodilla(Clone)
+      parentName: 
+      position: {x: -8.881784e-18, y: 0.061885193, z: 0.0013331932}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Main_CNT
+      parentName: Arrodilla(Clone)
+      position: {x: 0.018596467, y: -0.023583535, z: -0.0013331932}
+      rotation: {x: -0.14748853, y: -0.14291042, z: 0.36087033, w: 0.9097233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_NeckBtmClstrG
+      parentName: Bony_Main_CNT
+      position: {x: 7.966198e-18, y: 0.074221864, z: -0.0006370466}
+      rotation: {x: -0.14114872, y: -2.220446e-16, z: 1.9428904e-16, w: 0.9899884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_NeckBtmClstr
+      parentName: Bony_NeckBtmClstrG
+      position: {x: -1.9721522e-33, y: 0.00073009654, z: 0.00011007481}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_HeadClstrG
+      parentName: Bony_Main_CNT
+      position: {x: 9.510096e-18, y: 0.07861247, z: -0.0012271595}
+      rotation: {x: -0.14114872, y: -2.498002e-16, z: 2.7755572e-17, w: 0.9899884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_HeadClstr
+      parentName: Bony_HeadClstrG
+      position: {x: -0, y: -0.00073009654, z: -0.00011007481}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_ROOTCG
+      parentName: Bony_Main_CNT
+      position: {x: -0, y: 0.047661144, z: 0.00018608513}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_ROOTC
+      parentName: Bony_ROOTCG
+      position: {x: -0, y: -2.4868996e-16, z: -1.5543122e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonymidSpineAimLctr
+      parentName: Bony_ROOTC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00012069169, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonymidSpineTargetLctr
+      parentName: Bony_ROOTC
+      position: {x: 6.746986e-18, y: 0.022308445, z: -0.00019467366}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_MainHipCG
+      parentName: Bony_Main_CNT
+      position: {x: -0, y: 0.047661144, z: 0.00018608513}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_MainHipC
+      parentName: Bony_MainHipCG
+      position: {x: 1.3322676e-17, y: 1.7763568e-17, z: 5.2041704e-18}
+      rotation: {x: -0.037006386, y: -0.0056028883, z: -0.032392215, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_spineLengthClstr01
+      parentName: Bony_MainHipC
+      position: {x: 2.6455552e-19, y: 0.0016125685, z: 0.000038231432}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_spineBtmTX_Lctr
+      parentName: Bony_MainHipC
+      position: {x: -0.00068844896, y: 0.011075497, z: 0.001149662}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Spine01FKCG
+      parentName: Bony_Main_CNT
+      position: {x: 2.7755575e-19, y: 0.05314388, z: 0.00031607202}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Spine01FKC
+      parentName: Bony_Spine01FKCG
+      position: {x: -0, y: -4.3887128e-34, z: 0}
+      rotation: {x: 0.0056865294, y: -0, z: -0, w: 0.99998385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_SpineMidIKCG
+      parentName: Bony_Main_CNT
+      position: {x: 1.7989776e-18, y: 0.05862478, z: 0.0005084049}
+      rotation: {x: 0.011372875, y: -0, z: -0, w: 0.9999353}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_SpineMidIKCG2
+      parentName: Bony_SpineMidIKCG
+      position: {x: 4.9303805e-34, y: 0.0001887573, z: 0.0035514398}
+      rotation: {x: -0.000120690995, y: -0.003397467, z: -0.00000041004606, w: 0.9999942}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_SpineMidIKC
+      parentName: Bony_SpineMidIKCG2
+      position: {x: -0, y: 0, z: -0.0035557342}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_spineLengthClstr02
+      parentName: Bony_SpineMidIKC
+      position: {x: 4.354489e-19, y: 0.000060372353, z: -0.00009397853}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_SpineTopIKCG
+      parentName: Bony_Main_CNT
+      position: {x: 6.746986e-18, y: 0.06959755, z: 0.000311863}
+      rotation: {x: 0.011372875, y: -0, z: -0, w: 0.9999353}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_SpineTopIKC
+      parentName: Bony_SpineTopIKCG
+      position: {x: 9.860761e-34, y: 0.0003775146, z: -0.0000085885185}
+      rotation: {x: -0.12099367, y: 0, z: -0, w: 0.99265325}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_spineLengthClstr03
+      parentName: Bony_SpineTopIKC
+      position: {x: -7.06858e-19, y: -0.0015664959, z: 0.0000637227}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_SpineTopTX_Lctr
+      parentName: Bony_SpineTopIKC
+      position: {x: 0.00002416084, y: -0.010936671, z: -0.0022423097}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Spine02FKCG
+      parentName: Bony_Main_CNT
+      position: {x: 1.7989776e-18, y: 0.05862478, z: 0.00050840486}
+      rotation: {x: 0.00568653, y: -0, z: -0, w: 0.99998385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Spine02FKC
+      parentName: Bony_Spine02FKCG
+      position: {x: -0, y: 1.7763568e-17, z: 2.7755575e-19}
+      rotation: {x: 0.0056865294, y: -0, z: -0, w: 0.99998385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Spine03FKCG
+      parentName: Bony_Main_CNT
+      position: {x: 4.5822324e-18, y: 0.06411217, z: 0.00036601833}
+      rotation: {x: 0.011372875, y: -0, z: -0, w: 0.9999353}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Spine03FKC
+      parentName: Bony_Spine03FKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Spine04FKCG
+      parentName: Bony_Main_CNT
+      position: {x: 6.746986e-18, y: 0.06959755, z: 0.000311863}
+      rotation: {x: 0.011372875, y: -0, z: -0, w: 0.9999353}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Spine04FKC
+      parentName: Bony_Spine04FKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_ribbonSpineG
+      parentName: Bony_Main_CNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.548293, y: 0.548293, z: 0.548293}
+    - name: Bony_spineBtm01JIK
+      parentName: Bony_ribbonSpineG
+      position: {x: 2.429846e-17, y: 0.08692642, z: 0.00033938995}
+      rotation: {x: -0.03700639, y: -0.005602888, z: -0.032392215, w: 0.99877423}
+      scale: {x: 0.98016167, y: 1.0202398, z: 0.98016167}
+    - name: Bony_spineMidJIK
+      parentName: Bony_ribbonSpineG
+      position: {x: 0.000044065564, y: 0.10726514, z: 0.0009273646}
+      rotation: {x: 0.011252126, y: -0.0033972426, z: -0.000039048995, w: 0.9999309}
+      scale: {x: 0.98016167, y: 1.0202398, z: 0.98016167}
+    - name: Bony_SpineTopJIK
+      parentName: Bony_ribbonSpineG
+      position: {x: 1.2305438e-17, y: 0.12762366, z: 0.00056878896}
+      rotation: {x: -0.10969652, y: 0, z: -0, w: 0.99396515}
+      scale: {x: 0.98016167, y: 1.0202398, z: 0.98016167}
+    - name: Bony_HeadCG2
+      parentName: Bony_Main_CNT
+      position: {x: 9.510096e-18, y: 0.07861247, z: -0.0012271595}
+      rotation: {x: -0.14114872, y: 0, z: -0, w: 0.9899884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_HeadCG
+      parentName: Bony_HeadCG2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 4.1633363e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_HeadC
+      parentName: Bony_HeadCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Neck01CG
+      parentName: Bony_Main_CNT
+      position: {x: 7.966198e-18, y: 0.074221864, z: -0.0006370466}
+      rotation: {x: -0.10969652, y: 0, z: -0, w: 0.99396515}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Neck01C
+      parentName: Bony_Neck01CG
+      position: {x: -0, y: 4.2632563e-16, z: 1.2656542e-16}
+      rotation: {x: -0.031698614, y: 0, z: -0, w: 0.9994975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_NeckLengthAimLctr
+      parentName: Bony_Main_CNT
+      position: {x: 7.966198e-18, y: 0.074221864, z: -0.0006370466}
+      rotation: {x: -0.06675176, y: 8.249676e-25, z: -1.7464101e-16, w: 0.99776965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_NeckLengthTargetLctr
+      parentName: Bony_NeckLengthAimLctr
+      position: {x: 1.5438983e-18, y: 0.0044300864, z: -4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_NeckUpLctr
+      parentName: Bony_Main_CNT
+      position: {x: -2.014522e-18, y: 0.07765525, z: 0.0033214625}
+      rotation: {x: -0.14114872, y: -2.359224e-16, z: 1.11022296e-16, w: 0.9899884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLegSwitchCG
+      parentName: Bony_Main_CNT
+      position: {x: -0.0045950287, y: 0.006138238, z: -0.0009403652}
+      rotation: {x: 0.012750296, y: 0.000050040868, z: 0.000053675198, w: 0.99991876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLegSwitchC
+      parentName: Bony_lLegSwitchCG
+      position: {x: -0, y: 0, z: -0.005776203}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lArmIKHandle
+      parentName: Bony_Main_CNT
+      position: {x: -0.035609607, y: 0.071013436, z: -0.00013861402}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFootIKCG
+      parentName: Bony_Main_CNT
+      position: {x: -0.0045938254, y: -3.4083846e-16, z: -0.0009498626}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFootIKC
+      parentName: Bony_lFootIKCG
+      position: {x: -0, y: 0.0058418126, z: 1.2101431e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeIKCG
+      parentName: Bony_Main_CNT
+      position: {x: -0.0045960955, y: 0.025951123, z: 0.00018523916}
+      rotation: {x: 0.014483181, y: -0.0014908499, z: -0.000021571748, w: 0.999894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeIKC
+      parentName: Bony_lKneeIKCG
+      position: {x: -0, y: 1.3322676e-17, z: 0.020920414}
+      rotation: {x: 0.007288708, y: 0.0019324968, z: -0.00002690559, w: 0.99997157}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeFKAimLctr
+      parentName: Bony_lKneeIKCG
+      position: {x: -0.0016226729, y: 0.002003991, z: 0.022387479}
+      rotation: {x: -0.037102293, y: -0.0065387227, z: -0.032105852, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeIKC_TargetLctr
+      parentName: Bony_Main_CNT
+      position: {x: -0.004676897, y: 0.026253333, z: 0.00025497508}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lBallFKCG
+      parentName: Bony_Main_CNT
+      position: {x: -0.007725483, y: 0.0008460863, z: 0.007927769}
+      rotation: {x: -0.0032626595, y: 0.70227814, z: -0.04907224, w: 0.71020186}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lBallFKC
+      parentName: Bony_lBallFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.4904466, y: 0.4904466, z: 0.4904466}
+    - name: Bony_lAnkleFKCG
+      parentName: Bony_Main_CNT
+      position: {x: -0.007297169, y: 0.006255066, z: 0.0020670833}
+      rotation: {x: 0.49427855, y: 0.49889272, z: 0.46748927, w: 0.5368878}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lAnkleFKC
+      parentName: Bony_lAnkleFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeFKCG
+      parentName: Bony_Main_CNT
+      position: {x: -0.0059999046, y: 0.026351565, z: 0.0017197519}
+      rotation: {x: 0.50733745, y: 0.48407057, z: 0.48318908, w: 0.52422583}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeFKC
+      parentName: Bony_lKneeFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.4904466, z: 0.4904466}
+    - name: Bony_lHipFKCG
+      parentName: Bony_Main_CNT
+      position: {x: -0.0047542267, y: 0.04535352, z: 0.00031606003}
+      rotation: {x: 0.49371678, y: 0.49832702, z: 0.4680292, w: 0.5374594}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lHipFKC
+      parentName: Bony_lHipFKCG
+      position: {x: -0, y: 1.9428903e-18, z: -1.6653345e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lHipFKOrientLctr
+      parentName: Bony_lHipFKCG
+      position: {x: 1.7763568e-17, y: 0, z: -1.110223e-18}
+      rotation: {x: 0.007923537, y: 0.03434895, z: 0.053005688, w: 0.99797183}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lArmSwitchCG
+      parentName: Bony_Main_CNT
+      position: {x: -0.011732652, y: 0.044189174, z: 0.005032491}
+      rotation: {x: 0.011374168, y: 0.27364123, z: 0.63464224, w: 0.7226482}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lArmSwitchC
+      parentName: Bony_lArmSwitchCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowIKCG
+      parentName: Bony_Main_CNT
+      position: {x: -0.021927003, y: 0.07101344, z: -0.00014172003}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowIKC
+      parentName: Bony_lElbowIKCG
+      position: {x: -0, y: 0, z: -0.029998116}
+      rotation: {x: -0.0026555154, y: 0.000014843326, z: -1.0044033e-16, w: 0.9999965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowFKAimLctr
+      parentName: Bony_lElbowIKCG
+      position: {x: 0.005464844, y: -0.018745184, z: -0.028253496}
+      rotation: {x: 0.009827282, y: 0.13374989, z: 0.63279706, w: 0.7626155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowIKC_TargetLctr
+      parentName: Bony_Main_CNT
+      position: {x: -0.021926112, y: 0.071172774, z: -0.00013909837}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristIKCG
+      parentName: Bony_Main_CNT
+      position: {x: -0.035609607, y: 0.071013436, z: -0.00013861402}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristIKC
+      parentName: Bony_lWristIKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristFKCG
+      parentName: Bony_Main_CNT
+      position: {x: -0.011732652, y: 0.044189174, z: 0.005032491}
+      rotation: {x: -0.048516445, y: 0.20344436, z: 0.6310152, w: 0.74704516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristFKC
+      parentName: Bony_lWristFKCG
+      position: {x: -3.1086245e-17, y: 1.8651746e-16, z: -8.881784e-18}
+      rotation: {x: 0.08711468, y: 0.019435763, z: 0.03369461, w: 0.9954386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristIKLctr
+      parentName: Bony_lWristFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.04851645, y: -0.20344436, z: -0.6310152, w: 0.74704516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowFKCG
+      parentName: Bony_Main_CNT
+      position: {x: -0.010079724, y: 0.056817923, z: 0.000032860346}
+      rotation: {x: 0.06803956, y: 0.063024364, z: 0.6292017, w: 0.77168894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowFKC
+      parentName: Bony_lElbowFKCG
+      position: {x: -3.5083046e-16, y: 0, z: -1.5853984e-15}
+      rotation: {x: 0, y: 0.18348593, z: -0, w: 0.98302233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lShoulderFKCG2
+      parentName: Bony_Main_CNT
+      position: {x: -0.0071114907, y: 0.07101344, z: -0.00013861396}
+      rotation: {x: -0.10969652, y: 0, z: -0, w: 0.99396515}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lShoulderFKCG
+      parentName: Bony_lShoulderFKCG2
+      position: {x: -0, y: 0.00030983923, z: 0.00007460538}
+      rotation: {x: 1.686941e-11, y: -0.00010482733, z: 0.00000016092496, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lShoulderFKC
+      parentName: Bony_lShoulderFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.1524617, y: -0.0064827427, z: 0.6322685, w: 0.7595722}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lShoulderFKOrientLctr
+      parentName: Bony_lShoulderFKCG
+      position: {x: -0, y: 0, z: 1.1969592e-18}
+      rotation: {x: 0.10713126, y: -0.00061493, z: 0.0055336114, w: 0.9942293}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lClavicleCG
+      parentName: Bony_Main_CNT
+      position: {x: -0.0038826417, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: -0.10969652, y: 0, z: -0, w: 0.99396515}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lClavicleC
+      parentName: Bony_lClavicleCG
+      position: {x: -0, y: 8.881784e-18, z: 2.220446e-18}
+      rotation: {x: -0.012731125, y: 0, z: -0, w: 0.999919}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lArmIKFKG
+      parentName: Bony_Main_CNT
+      position: {x: -0.0038826417, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: -0.12234193, y: -2.2204459e-16, z: -5.551115e-17, w: 0.992488}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lShoulderJFK
+      parentName: Bony_lArmIKFKG
+      position: {x: -0.003228849, y: -8.881784e-18, z: -6.661338e-18}
+      rotation: {x: 0.16205326, y: -0.014611503, z: 0.6321498, w: 0.75756973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lShoulderJIK
+      parentName: Bony_lArmIKFKG
+      position: {x: -0.003228849, y: -1.7763568e-17, z: -2.2551404e-19}
+      rotation: {x: 0.119779654, y: -0.0007896712, z: 0.0055353967, w: 0.9927848}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowJIK
+      parentName: Bony_lShoulderJIK
+      position: {x: -0.014815512, y: -8.881784e-18, z: -5.427516e-15}
+      rotation: {x: 0.000030514206, y: 0.00000024852832, z: 7.583956e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristJIK
+      parentName: Bony_lElbowJIK
+      position: {x: -0.013682604, y: 0, z: 1.7347234e-20}
+      rotation: {x: 0.0025176879, y: -0.0000043247715, z: -0.005590716, w: 0.9999812}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLegIKFKG
+      parentName: Bony_Main_CNT
+      position: {x: 1.3322676e-17, y: 0.047661144, z: 0.00018608513}
+      rotation: {x: -0.03700639, y: -0.005602888, z: -0.032392215, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lHipJFK
+      parentName: Bony_lLegIKFKG
+      position: {x: -0.004593827, y: -0.0026156208, z: 5.551115e-19}
+      rotation: {x: 0.49948147, y: 0.49939993, z: 0.5005401, w: 0.50057733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lHipJIK
+      parentName: Bony_lLegIKFKG
+      position: {x: -0.004593827, y: -0.0026156208, z: 2.7755575e-19}
+      rotation: {x: 0.5118873, y: 0.493308, z: 0.53905696, w: 0.45170367}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeJIK
+      parentName: Bony_lHipJIK
+      position: {x: -0.019094404, y: -3.2612801e-18, z: 1.6653345e-18}
+      rotation: {x: -0.00037229375, y: 0.00000009047362, z: 0.000000019087157, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lAnkleJIK
+      parentName: Bony_lKneeJIK
+      position: {x: -0.020141322, y: 1.2767564e-17, z: 1.6653345e-18}
+      rotation: {x: 0.0000024335243, y: -0.002125596, z: -0.36947566, w: 0.92923796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lBallJIK
+      parentName: Bony_lAnkleJIK
+      position: {x: -0.007986748, y: 3.8857806e-18, z: 1.110223e-18}
+      rotation: {x: 0.000029403407, y: -0.0000657154, z: -0.40082517, w: 0.91615456}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lToeJIK
+      parentName: Bony_lBallJIK
+      position: {x: -0.007416458, y: -2.1674593e-18, z: 3.0531134e-17}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristJFKG2
+      parentName: Bony_Main_CNT
+      position: {x: -0.011732652, y: 0.044189174, z: 0.005032491}
+      rotation: {x: -0.048516445, y: 0.20344436, z: 0.6310152, w: 0.74704516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristJFKG1
+      parentName: Bony_lWristJFKG2
+      position: {x: -3.1086245e-17, y: 3.3343106e-13, z: 8.8470896e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristJFK
+      parentName: Bony_lWristJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.08711468, y: 0.019435767, z: 0.03369461, w: 0.9954386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowJFKG2
+      parentName: Bony_Main_CNT
+      position: {x: -0.010079724, y: 0.056817923, z: 0.000032860346}
+      rotation: {x: 0.068087414, y: 0.0629176, z: 0.6291957, w: 0.77169836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowJFKG1
+      parentName: Bony_lElbowJFKG2
+      position: {x: -3.0642155e-16, y: 0, z: -1.5842189e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowJFK
+      parentName: Bony_lElbowJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000029964756, y: 0.18359749, z: 0.0000057668044, w: 0.98300153}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristJIKDummyG2
+      parentName: Bony_Main_CNT
+      position: {x: -0.021926079, y: 0.07116644, z: -0.00013609999}
+      rotation: {x: -0.0025786993, y: -0.00021978252, z: 0.0055905427, w: 0.99998105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristJIKDummyG1
+      parentName: Bony_lWristJIKDummyG2
+      position: {x: -0.013682604, y: -0.0000000047683715, z: 0.0000031060856}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristJIKDummy
+      parentName: Bony_lWristJIKDummyG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.0025786993, y: 0.00021978254, z: -0.0055905427, w: 0.99998105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lPalmCG
+      parentName: Bony_Main_CNT
+      position: {x: -0.011826964, y: 0.04224074, z: 0.0058364826}
+      rotation: {x: 0.011374168, y: 0.27364123, z: 0.63464224, w: 0.7226482}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lPalmC
+      parentName: Bony_lPalmCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger1J1CG
+      parentName: Bony_lPalmC
+      position: {x: -0.0031461173, y: -1.02140514e-16, z: 0.0017782907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger1J1C
+      parentName: Bony_lFinger1J1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.032754667, y: 0.04843039, z: 0.111202545, w: 0.99207646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger1J2CG
+      parentName: Bony_lPalmC
+      position: {x: -0.0049320073, y: -0.00040015142, z: 0.0019685093}
+      rotation: {x: -0.032754663, y: 0.048430394, z: 0.11120254, w: 0.99207646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger1J2C
+      parentName: Bony_lFinger1J2CG
+      position: {x: 3.1086245e-17, y: -1.8873792e-17, z: -7.771561e-18}
+      rotation: {x: -0.005495761, y: 0.008125922, z: 0.018658185, w: 0.9997778}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger1J3CG
+      parentName: Bony_lPalmC
+      position: {x: -0.0067141545, y: -0.0008684603, z: 0.0021943476}
+      rotation: {x: -0.0381996, y: 0.056481164, z: 0.12968819, w: 0.9892076}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger1J3C
+      parentName: Bony_lFinger1J3CG
+      position: {x: -7.5495166e-17, y: -5.995204e-17, z: -2.7478018e-17}
+      rotation: {x: 0.04741674, y: 0.0019744523, z: 0.022702167, w: 0.99861526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger2J1CG
+      parentName: Bony_lPalmC
+      position: {x: -0.0031835972, y: -1.9984014e-16, z: -0.0007234736}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger2J1C
+      parentName: Bony_lFinger2J1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.023845183, y: 0.035257015, z: 0.08095473, w: 0.9958086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger2J2CG
+      parentName: Bony_lPalmC
+      position: {x: -0.0050487807, y: -0.0003023029, z: -0.0005831136}
+      rotation: {x: -0.023845185, y: 0.03525701, z: 0.08095474, w: 0.9958086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger2J2C
+      parentName: Bony_lFinger2J2CG
+      position: {x: 1.8873792e-17, y: -1.3322676e-17, z: -7.494005e-18}
+      rotation: {x: -0.013428436, y: 0.019855017, z: 0.045589726, w: 0.99867266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger2J3CG
+      parentName: Bony_lPalmC
+      position: {x: -0.0067664064, y: -0.0007411745, z: -0.00037203636}
+      rotation: {x: -0.037185684, y: 0.054982007, z: 0.12624592, w: 0.98977584}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger2J3C
+      parentName: Bony_lFinger2J3CG
+      position: {x: 3.5527136e-17, y: -2.2204459e-17, z: 2.4980017e-18}
+      rotation: {x: -0.023678362, y: -0.024332581, z: 0.05938008, w: 0.9976579}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lArmLengthOriginLctr
+      parentName: Bony_Main_CNT
+      position: {x: -0.0071114907, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: -1.7218999e-14, y: -0.00009198837, z: 0.005590681, w: 0.9999844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lArmLengthEndLctr
+      parentName: Bony_lArmLengthOriginLctr
+      position: {x: -0.028499898, y: 6.217249e-17, z: 9.714452e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lAnkleJFKG2
+      parentName: Bony_Main_CNT
+      position: {x: -0.0059999046, y: 0.026351565, z: 0.0017197519}
+      rotation: {x: -0.03700639, y: -0.005602888, z: -0.032392215, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lAnkleJFKG1
+      parentName: Bony_lAnkleJFKG2
+      position: {x: 0.00000227028, y: -0.020109313, z: -0.0011351015}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lAnkleJFK
+      parentName: Bony_lAnkleJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.28199837, y: 0.648442, z: 0.28199837, w: 0.648442}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lBallJFK
+      parentName: Bony_lAnkleJFK
+      position: {x: -0.007986748, y: 3.6748381e-16, z: -1.8873792e-17}
+      rotation: {x: 0, y: -0, z: -0.39880586, w: 0.9170354}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lToeJFK
+      parentName: Bony_lBallJFK
+      position: {x: -0.007416458, y: -2.1674593e-18, z: 3.0531134e-17}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeJFKG2
+      parentName: Bony_Main_CNT
+      position: {x: -0.0047542267, y: 0.04535352, z: 0.00031606003}
+      rotation: {x: -0.03700639, y: -0.005602888, z: -0.032392215, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeJFKG1
+      parentName: Bony_lKneeJFKG2
+      position: {x: -0.0000022684917, y: -0.019094404, z: -0.0000008461099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeJFK
+      parentName: Bony_lKneeJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5131432, y: 0.48496786, z: 0.51464796, w: 0.48644394}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLegLengthOriginLctr
+      parentName: Bony_Main_CNT
+      position: {x: -0.0047542267, y: 0.04535352, z: 0.00031606003}
+      rotation: {x: 0.99193877, y: -0.000000013152404, z: 0.12568586, w: -0.016141256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLegLengthEndLctr
+      parentName: Bony_lLegLengthOriginLctr
+      position: {x: -7.216449e-18, y: 0.039532304, z: 6.673481e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristFKLctrG
+      parentName: Bony_Main_CNT
+      position: {x: -0.035609607, y: 0.071013436, z: -0.00013861402}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristFKLctr
+      parentName: Bony_lWristFKLctrG
+      position: {x: 0.023876956, y: -0.026824258, z: 0.0051711053}
+      rotation: {x: 0.011374168, y: 0.27364123, z: 0.63464224, w: 0.7226482}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lAnkleFKLctrG
+      parentName: Bony_Main_CNT
+      position: {x: -0.0045938254, y: 0.0058418126, z: -0.0009498626}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lAnkleFKLctr
+      parentName: Bony_lAnkleFKLctrG
+      position: {x: -0.0027033435, y: 0.0004132538, z: 0.003016946}
+      rotation: {x: -0.03700639, y: -0.0056028883, z: -0.03239222, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lToeIKCG
+      parentName: Bony_Main_CNT
+      position: {x: -0.004547118, y: 0.003266998, z: 0.013817496}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lToeIKC
+      parentName: Bony_lToeIKCG
+      position: {x: -0.000046707224, y: -0.003266998, z: -0.001904674}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lBallSwivel
+      parentName: Bony_lToeIKC
+      position: {x: -0, y: -3.0272957e-19, z: -0.007416458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFootInTilt
+      parentName: Bony_lBallSwivel
+      position: {x: 0.002953442, y: 3.4083846e-16, z: 3.6415315e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFootOutTilt
+      parentName: Bony_lFootInTilt
+      position: {x: -0.007063532, y: 0, z: 2.7755574e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFootHeelPivot
+      parentName: Bony_lFootOutTilt
+      position: {x: 0.00411009, y: 0, z: -0.00827414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFootBallPivot
+      parentName: Bony_lFootHeelPivot
+      position: {x: 8.881784e-18, y: -3.4083846e-16, z: 0.00827414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lBallIKHandle
+      parentName: Bony_lFootBallPivot
+      position: {x: 1.5543122e-17, y: -7.5918306e-19, z: -1.3797416e-17}
+      rotation: {x: 0.28199834, y: 0.648442, z: 0.28199834, w: 0.648442}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLegIKHandle
+      parentName: Bony_lFootBallPivot
+      position: {x: 1.110223e-18, y: 0.0058418126, z: -0.005446226}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeTargetLockLctr
+      parentName: Bony_lFootBallPivot
+      position: {x: -5.5511148e-18, y: 0.0058418126, z: -0.005446226}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFootToePivot
+      parentName: Bony_lFootHeelPivot
+      position: {x: 8.881784e-18, y: -3.4083846e-16, z: 0.00827414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lToeIKHandle
+      parentName: Bony_lFootToePivot
+      position: {x: -2.7644553e-16, y: 7.1441377e-19, z: 0.007416458}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lShoulderIKLockLctr
+      parentName: Bony_Main_CNT
+      position: {x: -0.0071114907, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: 4.5984871e-10, y: -0.52784324, z: 0.005605505, w: 0.84932333}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowIKLockLctr
+      parentName: Bony_lShoulderIKLockLctr
+      position: {x: -0.033466235, y: -1.7763568e-17, z: -9.992007e-18}
+      rotation: {x: 0.000000006247463, y: 0.903349, z: 0.0016707612, w: 0.428903}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristIKLockLctr
+      parentName: Bony_lElbowIKLockLctr
+      position: {x: -0.032974035, y: 2.6645352e-17, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lHipIKLockLctr
+      parentName: Bony_Main_CNT
+      position: {x: -0.0047542267, y: 0.04535352, z: 0.00031606003}
+      rotation: {x: 0.000000010672627, y: 0.51022166, z: 0.491257, w: 0.7059324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeIKLockLctr
+      parentName: Bony_lHipIKLockLctr
+      position: {x: -0.028847538, y: -4.440892e-18, z: 6.661338e-18}
+      rotation: {x: 0.0000000014238167, y: -0.508369, z: 0.530611, w: 0.6782425}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lAnkleIKLockLctr
+      parentName: Bony_lKneeIKLockLctr
+      position: {x: -0.02943537, y: 8.049117e-18, z: 1.7763568e-17}
+      rotation: {x: 0.0723927, y: 0.10143959, z: -0.01442904, w: 0.9920994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lAnkleIKLctrG
+      parentName: Bony_Main_CNT
+      position: {x: -0.0072971676, y: 0.006255086, z: 0.0020670826}
+      rotation: {x: -0.03700639, y: -0.0056028883, z: -0.03239222, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lAnkleIKLctr
+      parentName: Bony_lAnkleIKLctrG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.03700639, y: 0.0056028883, z: 0.03239222, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLegSwitchCG
+      parentName: Bony_Main_CNT
+      position: {x: 0.0045938254, y: 0.0058418126, z: -0.00094986253}
+      rotation: {x: 0.0000000015461533, y: 1, z: 0.0000000019226807, w: 6.42051e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLegSwitchC
+      parentName: Bony_rLegSwitchCG
+      position: {x: -0, y: 0, z: 0.005776203}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rArmIKHandle
+      parentName: Bony_Main_CNT
+      position: {x: 0.035609607, y: 0.071013436, z: -0.00013861402}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFootIKCG
+      parentName: Bony_Main_CNT
+      position: {x: 0.0045938254, y: -4.4408918e-17, z: -0.0009498626}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFootIKC
+      parentName: Bony_rFootIKCG
+      position: {x: -0, y: -0.0058418126, z: 3.1016856e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeIKCG
+      parentName: Bony_Main_CNT
+      position: {x: 0.0045960955, y: 0.025951123, z: 0.00018523916}
+      rotation: {x: 0.014483181, y: 0.0014908499, z: 0.000021571748, w: 0.999894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeIKC
+      parentName: Bony_rKneeIKCG
+      position: {x: -0.000056017616, y: 0.00054431043, z: 0.03970552}
+      rotation: {x: -0.008614539, y: 0.0004354232, z: -0.000052033873, w: 0.9999628}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeFKAimLctr
+      parentName: Bony_rKneeIKCG
+      position: {x: -0.0016519595, y: 0.0014089188, z: 0.022521622}
+      rotation: {x: -0.036910154, y: -0.0065387264, z: -0.032326557, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeIKC_TargetLctr
+      parentName: Bony_Main_CNT
+      position: {x: 0.0045059673, y: 0.025809782, z: 0.00031265419}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rBallFKCG
+      parentName: Bony_Main_CNT
+      position: {x: 0.00144231, y: 0.00025540928, z: 0.008052624}
+      rotation: {x: 0.70227814, y: 0.0032627527, z: 0.71020186, w: 0.049072143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rBallFKC
+      parentName: Bony_rBallFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -0.4904466, y: -0.4904466, z: -0.4904466}
+    - name: Bony_rAnkleFKCG
+      parentName: Bony_Main_CNT
+      position: {x: 0.0018706245, y: 0.005664389, z: 0.0021919387}
+      rotation: {x: 0.49889272, y: -0.49427855, z: 0.5368878, w: -0.46748927}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rAnkleFKC
+      parentName: Bony_rAnkleFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeFKCG
+      parentName: Bony_Main_CNT
+      position: {x: 0.0031724193, y: 0.025760598, z: 0.001844669}
+      rotation: {x: 0.4854502, y: -0.50895286, z: 0.52276516, w: -0.48168623}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeFKC
+      parentName: Bony_rKneeFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: -0.4904466, z: -0.4904466}
+    - name: Bony_rHipFKCG
+      parentName: Bony_Main_CNT
+      position: {x: 0.0044135703, y: 0.044762842, z: 0.00044091544}
+      rotation: {x: 0.4994512, y: -0.4948791, z: 0.5362789, w: -0.46695623}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rHipFKC
+      parentName: Bony_rHipFKCG
+      position: {x: -1.7763568e-17, y: 7.84095e-18, z: 9.992007e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rHipFKOrientLctr
+      parentName: Bony_rHipFKCG
+      position: {x: -0, y: 6.938894e-20, z: 0}
+      rotation: {x: -0.0043848366, y: -0.035056014, z: -0.0076144035, w: 0.99934673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rArmSwitchCG
+      parentName: Bony_Main_CNT
+      position: {x: 0.011936841, y: 0.044181295, z: 0.004174748}
+      rotation: {x: 0.71610135, y: -0.6362077, z: 0.28532997, w: -0.03202232}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rArmSwitchC
+      parentName: Bony_rArmSwitchCG
+      position: {x: -0, y: 0, z: -1.7347234e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowIKCG
+      parentName: Bony_Main_CNT
+      position: {x: 0.021927003, y: 0.07101344, z: -0.00014172017}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowIKC
+      parentName: Bony_rElbowIKCG
+      position: {x: -0, y: 0, z: -0.026998116}
+      rotation: {x: -0.002950557, y: -0.000016492499, z: 3.5016252e-16, w: 0.99999565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowFKAimLctr
+      parentName: Bony_rElbowIKCG
+      position: {x: -0.0050510974, y: -0.017228154, z: -0.025949582}
+      rotation: {x: 0.033838727, y: -0.13400513, z: -0.6297711, w: 0.764386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowIKC_TargetLctr
+      parentName: Bony_Main_CNT
+      position: {x: 0.021926112, y: 0.071172774, z: -0.00013909837}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristIKCG
+      parentName: Bony_Main_CNT
+      position: {x: 0.035609607, y: 0.071013436, z: -0.00013861402}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristIKC
+      parentName: Bony_rWristIKCG
+      position: {x: -0, y: 0, z: -1.7347234e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristFKCG
+      parentName: Bony_Main_CNT
+      position: {x: 0.011936841, y: 0.044181295, z: 0.004174748}
+      rotation: {x: 0.74683553, y: -0.6299584, z: 0.21088885, w: 0.030249204}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristFKC
+      parentName: Bony_rWristFKCG
+      position: {x: -0, y: 6.217249e-17, z: 7.048181e-17}
+      rotation: {x: 0.09115378, y: 0.022659263, z: 0.039412603, w: 0.9947986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristIKLctr
+      parentName: Bony_rWristFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.030249223, y: -0.21088882, z: -0.6299584, w: 0.74683553}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowFKCG
+      parentName: Bony_Main_CNT
+      position: {x: 0.010331959, y: 0.056880414, z: -0.0006595399}
+      rotation: {x: 0.7740337, y: -0.62308997, z: 0.055844527, w: -0.097530134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowFKC
+      parentName: Bony_rElbowFKCG
+      position: {x: -3.375078e-16, y: 1.7763568e-17, z: -1.8212861e-16}
+      rotation: {x: 0, y: 0.20192753, z: -0, w: 0.9794005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rShoulderFKCG2
+      parentName: Bony_Main_CNT
+      position: {x: 0.0071114907, y: 0.07101344, z: -0.00013861396}
+      rotation: {x: -0.10969652, y: 0, z: -0, w: 0.99396515}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rShoulderFKCG
+      parentName: Bony_rShoulderFKCG2
+      position: {x: -0, y: 0.00030983923, z: 0.00007460538}
+      rotation: {x: 1, y: -0.00000016092496, z: -0.00010482733, w: -1.6869839e-11}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rShoulderFKC
+      parentName: Bony_rShoulderFKCG
+      position: {x: -1.7059117e-31, y: 1.2680939e-30, z: -3.017393e-31}
+      rotation: {x: 0.18202935, y: -0.012948556, z: 0.6253964, w: 0.75866795}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rShoulderFKOrientLctr
+      parentName: Bony_rShoulderFKCG
+      position: {x: -0, y: 0, z: -8.84709e-19}
+      rotation: {x: 0.10684967, y: -0.00061652146, z: 0.0055334345, w: 0.9942596}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rClavicleCG
+      parentName: Bony_Main_CNT
+      position: {x: 0.0038826417, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: 0.99396515, y: -0, z: 0, w: 0.10969651}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rClavicleC
+      parentName: Bony_rClavicleCG
+      position: {x: -0, y: 0, z: 1.7347234e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rArmIKFKG
+      parentName: Bony_Main_CNT
+      position: {x: 0.0038826417, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: 0.99396515, y: 5.551115e-17, z: 2.7755576e-16, w: 0.10969651}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rShoulderJFK
+      parentName: Bony_rArmIKFKG
+      position: {x: 0.003228849, y: -1.7763568e-17, z: 0}
+      rotation: {x: 0.18196379, y: -0.013028059, z: 0.62541556, w: 0.7586665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rShoulderJIK
+      parentName: Bony_rArmIKFKG
+      position: {x: 0.003228849, y: 0, z: -1.561251e-19}
+      rotation: {x: 0.10684909, y: -0.0007207298, z: 0.005544795, w: 0.99425954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowJIK
+      parentName: Bony_rShoulderJIK
+      position: {x: 0.014815512, y: 0, z: 5.4293546e-15}
+      rotation: {x: 0.000030514208, y: 0.00000029942163, z: 9.136625e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristJIK
+      parentName: Bony_rElbowJIK
+      position: {x: 0.013682604, y: 0, z: -1.7347234e-20}
+      rotation: {x: 0.0028009056, y: -0.0000027414196, z: -0.005590717, w: 0.99998045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLegIKFKG
+      parentName: Bony_Main_CNT
+      position: {x: 1.3322676e-17, y: 0.047661144, z: 0.00018608513}
+      rotation: {x: -0.03700639, y: -0.005602888, z: -0.032392215, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rHipJFK
+      parentName: Bony_rLegIKFKG
+      position: {x: 0.004593827, y: -0.0026156208, z: -1.110223e-18}
+      rotation: {x: 0.50059354, y: -0.5005562, z: 0.49938378, w: -0.49946523}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rHipJIK
+      parentName: Bony_rLegIKFKG
+      position: {x: 0.004593827, y: -0.0026156208, z: -6.245004e-19}
+      rotation: {x: -0.523559, y: 0.48090038, z: -0.48332986, w: 0.5108944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeJIK
+      parentName: Bony_rHipJIK
+      position: {x: 0.019094404, y: 2.4633073e-18, z: 5.551115e-19}
+      rotation: {x: -0.00033375437, y: 0.000074528885, z: 0.121284395, w: 0.9926178}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rAnkleJIK
+      parentName: Bony_rKneeJIK
+      position: {x: 0.020141322, y: -6.0229595e-17, z: 7.771561e-18}
+      rotation: {x: 0.00074332993, y: 0.002689871, z: -0.43694466, w: 0.8994841}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rBallJIK
+      parentName: Bony_rAnkleJIK
+      position: {x: 0.007986748, y: -2.7755574e-18, z: 0}
+      rotation: {x: -1.3206361e-11, y: 5.7432618e-12, z: -0.39880586, w: 0.9170354}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rToeJIK
+      parentName: Bony_rBallJIK
+      position: {x: 0.007416458, y: 2.7728943e-18, z: 4.1633363e-17}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristJFKG2
+      parentName: Bony_Main_CNT
+      position: {x: 0.011936841, y: 0.044181295, z: 0.004174748}
+      rotation: {x: -0.03024924, y: -0.2108888, z: -0.62995845, w: 0.74683553}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristJFKG1
+      parentName: Bony_rWristJFKG2
+      position: {x: -0, y: -7.9936054e-17, z: -6.2207185e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristJFK
+      parentName: Bony_rWristJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.9947986, y: -0.039412607, z: 0.022659265, w: -0.09115379}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowJFKG2
+      parentName: Bony_Main_CNT
+      position: {x: 0.010331959, y: 0.056880414, z: -0.0006595399}
+      rotation: {x: 0.09757727, y: -0.055737637, z: -0.6230805, w: 0.7740431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowJFKG1
+      parentName: Bony_rElbowJFKG2
+      position: {x: -3.5527135e-16, y: 5.3290704e-17, z: 1.8608378e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowJFK
+      parentName: Bony_rElbowJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.97937757, y: -0.0000063162556, z: 0.20203868, w: -0.000029912524}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristJIKDummyG2
+      parentName: Bony_Main_CNT
+      position: {x: 0.021926079, y: 0.07116644, z: -0.00013610072}
+      rotation: {x: -0.002861913, y: 0.00022133935, z: -0.0055905445, w: 0.9999803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristJIKDummyG1
+      parentName: Bony_rWristJIKDummyG2
+      position: {x: 0.013682604, y: -0.0000000047683715, z: 0.0000031060856}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristJIKDummy
+      parentName: Bony_rWristJIKDummyG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.9999803, y: 0.005590544, z: 0.00022133933, w: -0.0028619124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rPalmCG
+      parentName: Bony_Main_CNT
+      position: {x: 0.011995185, y: 0.04222024, z: 0.0049509914}
+      rotation: {x: 0.71610135, y: -0.6362077, z: 0.28532997, w: -0.03202232}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rPalmC
+      parentName: Bony_rPalmCG
+      position: {x: -4.718448e-18, y: -1.0451708e-18, z: 5.342948e-18}
+      rotation: {x: -0.06486181, y: -0.10806279, z: 0.08027938, w: 0.9887723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger1J1CG
+      parentName: Bony_rPalmC
+      position: {x: 0.0031461173, y: 9.7699626e-17, z: -0.0017782907}
+      rotation: {x: 4.6837534e-17, y: 5.1174343e-17, z: -1.7347235e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger1J1C
+      parentName: Bony_rFinger1J1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.02002953, y: 0.04768575, z: 0.095979296, w: 0.9940387}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger1J2CG
+      parentName: Bony_rPalmC
+      position: {x: 0.0049438784, y: 0.00034759045, z: -0.0019598054}
+      rotation: {x: -0.02002953, y: 0.04768575, z: 0.09597931, w: 0.9940387}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger1J2C
+      parentName: Bony_rFinger1J2CG
+      position: {x: -6.217249e-17, y: -5.950795e-16, z: -9.880985e-17}
+      rotation: {x: -0.013673292, y: 0.032552995, z: 0.065520905, w: 0.99722636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger1J3CG
+      parentName: Bony_rPalmC
+      position: {x: 0.0066805505, y: 0.00092476845, z: -0.0022715612}
+      rotation: {x: -0.033565756, y: 0.07991242, z: 0.1608434, w: 0.9831667}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger1J3C
+      parentName: Bony_rFinger1J3CG
+      position: {x: -4.796163e-16, y: 3.1974422e-16, z: 5.4400926e-17}
+      rotation: {x: -0.027328081, y: 0.021952014, z: 0.024052586, w: 0.999096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger2J1CG
+      parentName: Bony_rPalmC
+      position: {x: 0.0031835972, y: 1.9539925e-16, z: 0.0007234736}
+      rotation: {x: 4.6837534e-17, y: 5.1174343e-17, z: -1.7347235e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger2J1C
+      parentName: Bony_rFinger2J1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.018703153, y: 0.04452795, z: 0.08962345, w: 0.9948041}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger2J2CG
+      parentName: Bony_rPalmC
+      position: {x: 0.0050403737, y: 0.00033470153, z: 0.00054926146}
+      rotation: {x: -0.018703153, y: 0.04452795, z: 0.08962345, w: 0.9948041}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger2J2C
+      parentName: Bony_rFinger2J2CG
+      position: {x: 2.3092638e-16, y: -2.664535e-16, z: 7.077672e-18}
+      rotation: {x: -0.012369019, y: 0.029447814, z: 0.059270974, w: 0.99773085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger2J3CG
+      parentName: Bony_rPalmC
+      position: {x: 0.006727681, y: 0.0008487987, z: 0.00027338674}
+      rotation: {x: -0.030965459, y: 0.07372171, z: 0.14838308, w: 0.985692}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger2J3C
+      parentName: Bony_rFinger2J3CG
+      position: {x: -1.2434498e-16, y: -2.4868996e-16, z: -3.7081448e-16}
+      rotation: {x: -0.019458588, y: -0.00539871, z: 0.09286606, w: 0.99547386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rArmLengthOriginLctr
+      parentName: Bony_Main_CNT
+      position: {x: 0.0071114907, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: -0.0000000010611185, y: -0.016451394, z: 0.999849, w: 0.0055915015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rArmLengthEndLctr
+      parentName: Bony_rArmLengthOriginLctr
+      position: {x: -0.028499898, y: -4.4408918e-17, z: -1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rAnkleJFKG2
+      parentName: Bony_Main_CNT
+      position: {x: 0.0031724193, y: 0.025760598, z: 0.001844669}
+      rotation: {x: -0.03700639, y: -0.005602888, z: -0.032392215, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rAnkleJFKG1
+      parentName: Bony_rAnkleJFKG2
+      position: {x: -0.00000227028, y: -0.020109313, z: -0.0011351015}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rAnkleJFK
+      parentName: Bony_rAnkleJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.648442, y: -0.28199837, z: 0.648442, w: -0.28199837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rBallJFK
+      parentName: Bony_rAnkleJFK
+      position: {x: 0.007986748, y: -8.537615e-16, z: -1.6653345e-18}
+      rotation: {x: 0, y: -0, z: -0.39880586, w: 0.9170354}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rToeJFK
+      parentName: Bony_rBallJFK
+      position: {x: 0.007416458, y: 2.7728943e-18, z: 4.1633363e-17}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeJFKG2
+      parentName: Bony_Main_CNT
+      position: {x: 0.0044135703, y: 0.044762842, z: 0.00044091544}
+      rotation: {x: -0.03700639, y: -0.005602888, z: -0.032392215, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeJFKG1
+      parentName: Bony_rKneeJFKG2
+      position: {x: 0.0000022684917, y: -0.019094404, z: -0.0000008461099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeJFK
+      parentName: Bony_rKneeJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.48644394, y: 0.51464796, z: -0.48496786, w: 0.5131432}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLegLengthOriginLctr
+      parentName: Bony_Main_CNT
+      position: {x: 0.0044135703, y: 0.044762842, z: 0.00044091544}
+      rotation: {x: 0.99154454, y: -0.000000010624918, z: 0.12851162, w: -0.018007258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLegLengthEndLctr
+      parentName: Bony_rLegLengthOriginLctr
+      position: {x: -2.1094237e-17, y: 0.038946286, z: 1.6653345e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristFKLctrG
+      parentName: Bony_Main_CNT
+      position: {x: 0.035609607, y: 0.071013436, z: -0.00013861402}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristFKLctr
+      parentName: Bony_rWristFKLctrG
+      position: {x: -0.023672767, y: 0.026832141, z: -0.004313362}
+      rotation: {x: 0.03202226, y: 0.2853299, z: 0.6362077, w: 0.71610135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rAnkleFKLctrG
+      parentName: Bony_Main_CNT
+      position: {x: 0.0045938254, y: 0.0058418126, z: -0.0009498626}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rAnkleFKLctr
+      parentName: Bony_rAnkleFKLctrG
+      position: {x: -0.002723201, y: 0.00017742324, z: -0.0031418013}
+      rotation: {x: -0.03700639, y: 0.0056028883, z: 0.03239222, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rToeIKCG
+      parentName: Bony_Main_CNT
+      position: {x: 0.0045938254, y: -4.2854608e-16, z: -0.0009498626}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rToeIKC
+      parentName: Bony_rToeIKCG
+      position: {x: 3.3667512e-15, y: 1.05235605e-17, z: -0.012862684}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rBallSwivel
+      parentName: Bony_rToeIKC
+      position: {x: -0, y: -9.856587e-18, z: 0.007416458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFootInTilt
+      parentName: Bony_rBallSwivel
+      position: {x: -0.002953442, y: -4.4408918e-17, z: 9.103829e-17}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFootOutTilt
+      parentName: Bony_rFootInTilt
+      position: {x: 0.007063532, y: 0, z: 2.7755574e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFootHeelPivot
+      parentName: Bony_rFootOutTilt
+      position: {x: -0.00411009, y: 0, z: -0.00827414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFootBallPivot
+      parentName: Bony_rFootHeelPivot
+      position: {x: 1.110223e-18, y: -4.4408918e-17, z: 0.00827414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rBallIKHandle
+      parentName: Bony_rFootBallPivot
+      position: {x: 1.8318679e-17, y: 7.888609e-33, z: 0}
+      rotation: {x: 0.648442, y: -0.28199834, z: 0.648442, w: -0.28199834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLegIKHandle
+      parentName: Bony_rFootBallPivot
+      position: {x: 1.4432899e-17, y: 0.0058418126, z: -0.005446226}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeTargetLockLctr
+      parentName: Bony_rFootBallPivot
+      position: {x: -2.7755574e-18, y: 0.0058418126, z: -0.005446226}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFootToePivot
+      parentName: Bony_rFootHeelPivot
+      position: {x: 1.110223e-18, y: -4.4408918e-17, z: 0.00827414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rToeIKHandle
+      parentName: Bony_rFootToePivot
+      position: {x: 3.380629e-15, y: -8.9483365e-18, z: 0.007416458}
+      rotation: {x: 0.7071068, y: -1.4731799e-13, z: 0.7071068, w: 1.4731799e-13}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rShoulderIKLockLctr
+      parentName: Bony_Main_CNT
+      position: {x: 0.0071114907, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: -0.000000001671922, y: -0.86044717, z: 0.010152692, w: 0.50943863}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowIKLockLctr
+      parentName: Bony_rShoulderIKLockLctr
+      position: {x: -0.030805035, y: 8.881784e-18, z: 3.330669e-18}
+      rotation: {x: 0.0000000011692035, y: 0.88421655, z: -0.021712499, w: -0.46657225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristIKLockLctr
+      parentName: Bony_rElbowIKLockLctr
+      position: {x: -0.03027011, y: 8.881784e-18, z: -4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rHipIKLockLctr
+      parentName: Bony_Main_CNT
+      position: {x: 0.0044135703, y: 0.044762842, z: 0.00044091544}
+      rotation: {x: -0.000000024997002, y: 0.63618135, z: 0.31314257, w: 0.70513475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeIKLockLctr
+      parentName: Bony_rHipIKLockLctr
+      position: {x: -0.04396958, y: -8.881784e-18, z: 4.440892e-18}
+      rotation: {x: 0.00000003386999, y: -0.39529505, z: 0.80832714, w: 0.43629014}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rAnkleIKLockLctr
+      parentName: Bony_rKneeIKLockLctr
+      position: {x: -0.045257807, y: 1.11022296e-17, z: 1.8596234e-17}
+      rotation: {x: -0.22585492, y: 0.07875478, z: -0.2095429, w: 0.94809234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rAnkleIKLctrG
+      parentName: Bony_Main_CNT
+      position: {x: 0.0018706258, y: 0.005664409, z: 0.0021919378}
+      rotation: {x: 0.9987742, y: -0.032392222, z: 0.005602892, w: 0.037006408}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rAnkleIKLctr
+      parentName: Bony_rAnkleIKLctrG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.03700639, y: -0.0056028883, z: -0.03239222, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonyExtraNodes
+      parentName: Bony_Main_CNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_spineLengthC
+      parentName: BonyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_hairSystemFollicles
+      parentName: BonyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_spine01F
+      parentName: Bony_hairSystemFollicles
+      position: {x: 0.00015866873, y: 0.05322719, z: 0.00013354629}
+      rotation: {x: 0.03220364, y: -0.0056374236, z: -0.01615746, w: 0.9993349}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_spine02F
+      parentName: Bony_hairSystemFollicles
+      position: {x: 0.00005249496, y: 0.058822762, z: 0.0005440015}
+      rotation: {x: 0.035898406, y: -0.0034740062, z: -0.0020786193, w: 0.99934727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_spine03F
+      parentName: Bony_hairSystemFollicles
+      position: {x: 0.000013018107, y: 0.06444747, z: 0.00094773795}
+      rotation: {x: 0.020951515, y: -0.0016851203, z: -0.0000697507, w: 0.9997791}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_ribbonBlend
+      parentName: BonyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_ribbonBlend_lClusterG
+      parentName: BonyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_ribbonBlend_lTopCluster
+      parentName: Bony_ribbonBlend_lClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_ribbonBlend_lBtmCluster
+      parentName: Bony_ribbonBlend_lClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_ribbonBlend_rClusterG
+      parentName: BonyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_ribbonBlend_rTopCluster
+      parentName: Bony_ribbonBlend_rClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_ribbonBlend_rBtmCluster
+      parentName: Bony_ribbonBlend_rClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_NeckCurve
+      parentName: BonyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Neck02CG
+      parentName: BonyExtraNodes
+      position: {x: 8.7381466e-18, y: 0.07641716, z: -0.000932103}
+      rotation: {x: -0.06675178, y: -1.2813407e-15, z: -1.7623859e-16, w: 0.99776965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Neck02C
+      parentName: Bony_Neck02CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_extraCurveNodesG
+      parentName: BonyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmCurve
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmCurve
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmCurveGuide
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmCurveGuide
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmMidClstr
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.010906188, y: 0.05050355, z: 0.0025326759}
+      rotation: {x: -0.015733333, y: 0.23104559, z: 0.62146235, w: 0.748435}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmMidClstr
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.008595606, y: 0.06407501, z: -0.000050254872}
+      rotation: {x: 0.06815338, y: 0.06283667, z: 0.6291887, w: 0.7717048}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmCurveCG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.010906188, y: 0.05050355, z: 0.0025326759}
+      rotation: {x: -0.015733333, y: 0.23104559, z: 0.62146235, w: 0.748435}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmCurveC
+      parentName: Bony_lLowerArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmCurveCG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.008595607, y: 0.06407501, z: -0.00005025487}
+      rotation: {x: 0.06815338, y: 0.06283667, z: 0.6291887, w: 0.7717048}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmCurveC
+      parentName: Bony_lUpperArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmCurve1CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.010492947, y: 0.053660817, z: 0.0012827363}
+      rotation: {x: -0.032167725, y: 0.21734041, z: 0.626387, w: 0.74790895}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmCurve1C
+      parentName: Bony_lLowerArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmCurve2CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.01090619, y: 0.05050355, z: 0.002532676}
+      rotation: {x: -0.0157333, y: 0.23104554, z: 0.62146235, w: 0.748435}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmCurve2C
+      parentName: Bony_lLowerArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmCurve3CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.011319432, y: 0.047346283, z: 0.0037826165}
+      rotation: {x: 0.0007087665, y: 0.24463934, z: 0.61623794, w: 0.7486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmCurve3C
+      parentName: Bony_lLowerArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmCurve1CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.0078535285, y: 0.06770365, z: -0.00009181383}
+      rotation: {x: 0.06815338, y: 0.06283668, z: 0.62918884, w: 0.7717047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmCurve1C
+      parentName: Bony_lUpperArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmCurve2CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.008595606, y: 0.06407501, z: -0.00005025514}
+      rotation: {x: 0.06815338, y: 0.06283667, z: 0.6291888, w: 0.77170473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmCurve2C
+      parentName: Bony_lUpperArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmCurve3CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.009337684, y: 0.060446367, z: -0.000008696362}
+      rotation: {x: 0.06815338, y: 0.06283668, z: 0.62918866, w: 0.7717048}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmCurve3C
+      parentName: Bony_lUpperArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerArmCurve
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmCurve
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerArmCurveGuide
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmCurveGuide
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerArmMidClstr
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.0111344, y: 0.05053086, z: 0.0017576038}
+      rotation: {x: 0.7474149, y: -0.61954105, z: 0.23983796, w: -0.0041971803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmMidClstr
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.008721724, y: 0.064106256, z: -0.00039645552}
+      rotation: {x: 0.77404886, y: -0.62307036, z: 0.05565641, w: -0.097642526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerArmCurveCG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.0111344, y: 0.05053085, z: 0.0017576037}
+      rotation: {x: 0.7474149, y: -0.61954105, z: 0.23983796, w: -0.0041971803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerArmCurveC
+      parentName: Bony_rLowerArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmCurveCG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.008721724, y: 0.064106256, z: -0.00039645552}
+      rotation: {x: 0.77404886, y: -0.62307036, z: 0.05565641, w: -0.097642526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmCurveC
+      parentName: Bony_rUpperArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerArmCurve1CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.010733168, y: 0.05370572, z: 0.000549}
+      rotation: {x: 0.7473108, y: -0.6249435, z: 0.22538655, w: 0.013160123}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerArmCurve1C
+      parentName: Bony_rLowerArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerArmCurve2CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.011134398, y: 0.05053085, z: 0.0017576034}
+      rotation: {x: 0.7474149, y: -0.61954105, z: 0.23983796, w: -0.0041971803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerArmCurve2C
+      parentName: Bony_rLowerArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerArmCurve3CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.011535629, y: 0.04735599, z: 0.002966207}
+      rotation: {x: 0.7471184, y: -0.61383283, z: 0.25409162, w: -0.021468848}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerArmCurve3C
+      parentName: Bony_rLowerArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmCurve1CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.007916587, y: 0.06771927, z: -0.00026490926}
+      rotation: {x: 0.77404886, y: -0.62307036, z: 0.05565641, w: -0.097642526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmCurve1C
+      parentName: Bony_rUpperArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmCurve2CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.008721726, y: 0.064106256, z: -0.00039645506}
+      rotation: {x: 0.7740488, y: -0.6230704, z: 0.055656407, w: -0.09764253}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmCurve2C
+      parentName: Bony_rUpperArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmCurve3CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.009526864, y: 0.060493242, z: -0.00052800105}
+      rotation: {x: 0.7740488, y: -0.6230705, z: 0.05565641, w: -0.09764253}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmCurve3C
+      parentName: Bony_rUpperArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegCurve
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegCurve
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegCurveGuide
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegCurveGuide
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegMidClstr
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.004635891, y: 0.016203651, z: -0.00061787746}
+      rotation: {x: 0.50713235, y: 0.49315557, z: 0.5087498, w: 0.4907016}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegMidClstr
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.004715566, y: 0.035811294, z: 0.000010290761}
+      rotation: {x: 0.5075052, y: 0.4935378, z: 0.5083764, w: 0.49031878}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegCurveCG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.004635891, y: 0.016203653, z: -0.00061787746}
+      rotation: {x: 0.50713235, y: 0.49315557, z: 0.5087498, w: 0.4907016}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegCurveC
+      parentName: Bony_lLowerLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegCurveCG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.0047155656, y: 0.035811294, z: 0.000010290758}
+      rotation: {x: 0.5075052, y: 0.4935378, z: 0.5083764, w: 0.49031878}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegCurveC
+      parentName: Bony_lUpperLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegCurve1CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.0046563228, y: 0.02123649, z: -0.00045662958}
+      rotation: {x: 0.50722724, y: 0.493254, z: 0.5086544, w: 0.49060342}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegCurve1C
+      parentName: Bony_lLowerLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegCurve2CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.004635891, y: 0.016203653, z: -0.0006178777}
+      rotation: {x: 0.5071323, y: 0.4931556, z: 0.5087498, w: 0.49070156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegCurve2C
+      parentName: Bony_lLowerLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegCurve3CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.004615459, y: 0.011170814, z: -0.0007791257}
+      rotation: {x: 0.5070374, y: 0.49305713, z: 0.50884515, w: 0.4907997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegCurve3C
+      parentName: Bony_lLowerLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegCurve1CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.0047348933, y: 0.040582526, z: 0.00016318112}
+      rotation: {x: 0.50750566, y: 0.49353722, z: 0.50837624, w: 0.49031892}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegCurve1C
+      parentName: Bony_lUpperLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegCurve2CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.004715553, y: 0.035811294, z: 0.000010297976}
+      rotation: {x: 0.5075052, y: 0.4935378, z: 0.5083764, w: 0.49031878}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegCurve2C
+      parentName: Bony_lUpperLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegCurve3CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0.004696202, y: 0.03104005, z: -0.00014257882}
+      rotation: {x: 0.5075034, y: 0.4935394, z: 0.50837684, w: 0.49031842}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegCurve3C
+      parentName: Bony_lUpperLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegCurve
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegCurve
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegCurveGuide
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegCurveGuide
+      parentName: Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegMidClstr
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.004551635, y: 0.01579314, z: 0.0005953003}
+      rotation: {x: -0.46159726, y: 0.5363668, z: -0.45849317, w: 0.5376084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegMidClstr
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.004461583, y: 0.035253655, z: 0.0012906445}
+      rotation: {x: 0.5235387, y: -0.47652087, z: 0.5200141, w: -0.47793344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegCurveCG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.004551635, y: 0.01579314, z: 0.0005953003}
+      rotation: {x: -0.46159726, y: 0.5363668, z: -0.45849317, w: 0.5376084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegCurveC
+      parentName: Bony_rLowerLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegCurveCG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.004461583, y: 0.035253655, z: 0.0012906445}
+      rotation: {x: 0.5235387, y: -0.47652087, z: 0.5200141, w: -0.47793344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegCurveC
+      parentName: Bony_rUpperLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegCurve1CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.0045305397, y: 0.020768933, z: 0.001367902}
+      rotation: {x: -0.46179968, y: 0.53653944, z: -0.4582911, w: 0.5374344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegCurve1C
+      parentName: Bony_rLowerLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegCurve2CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.004551635, y: 0.01579314, z: 0.0005953006}
+      rotation: {x: -0.46159723, y: 0.53636676, z: -0.45849317, w: 0.5376083}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegCurve2C
+      parentName: Bony_rLowerLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegCurve3CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.0045727305, y: 0.010817346, z: -0.00017730113}
+      rotation: {x: -0.46139488, y: 0.53619426, z: -0.45869493, w: 0.537782}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegCurve3C
+      parentName: Bony_rLowerLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegCurve1CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.0044375723, y: 0.040008366, z: 0.00086577184}
+      rotation: {x: 0.5235389, y: -0.47652078, z: 0.5200136, w: -0.47793397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegCurve1C
+      parentName: Bony_rUpperLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegCurve2CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.00446157, y: 0.035253655, z: 0.0012906523}
+      rotation: {x: 0.5235387, y: -0.47652087, z: 0.5200141, w: -0.47793344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegCurve2C
+      parentName: Bony_rUpperLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegCurve3CG
+      parentName: Bony_extraCurveNodesG
+      position: {x: 0.0044855573, y: 0.030498926, z: 0.0017155407}
+      rotation: {x: 0.52353823, y: -0.47652122, z: 0.52001584, w: -0.4779318}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegCurve3C
+      parentName: Bony_rUpperLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_curveNodesG
+      parentName: Bony_Main_CNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonylElbowCurveLctr
+      parentName: Bony_curveNodesG
+      position: {x: -0.0111210495, y: 0.056824666, z: -0.0001813403}
+      rotation: {x: 0.011374168, y: 0.27364123, z: 0.63464224, w: 0.7226482}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmTopClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.010079725, y: 0.056817915, z: 0.00003286045}
+      rotation: {x: 0.00982694, y: 0.13375027, z: 0.63279265, w: 0.762619}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_lLowerArmTopClstr
+      parentName: Bony_lLowerArmTopClstrG
+      position: {x: -0.0011402178, y: 0, z: 0}
+      rotation: {x: -0.000030514188, y: -0.00011350492, z: -0.00000017078591, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmBtmClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.011732653, y: 0.044189174, z: 0.0050324914}
+      rotation: {x: 0.011374168, y: 0.27364123, z: 0.63464224, w: 0.7226482}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_lLowerArmBtmClstr
+      parentName: Bony_lLowerArmBtmClstrG
+      position: {x: 0.0011402178, y: 0, z: 0}
+      rotation: {x: -0.000030514188, y: -0.00011350492, z: -0.00000017078591, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmTopGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.010079725, y: 0.056817915, z: 0.00003286045}
+      rotation: {x: 0.00982694, y: 0.13375027, z: 0.63279265, w: 0.762619}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_lLowerArmTopGuideClstr
+      parentName: Bony_lLowerArmTopGuideClstrG
+      position: {x: -0.0022804332, y: 0, z: 0}
+      rotation: {x: -0.000030514188, y: -0.00011350492, z: -0.00000017078591, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmBtmGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.011732653, y: 0.044189174, z: 0.0050324914}
+      rotation: {x: 0.011374168, y: 0.27364123, z: 0.63464224, w: 0.7226482}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_lLowerArmBtmGuideClstr
+      parentName: Bony_lLowerArmBtmGuideClstrG
+      position: {x: 0.0022804332, y: 0, z: 0}
+      rotation: {x: -0.000030514188, y: -0.00011350492, z: -0.00000017078591, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lShoulderCurveLctr
+      parentName: Bony_curveNodesG
+      position: {x: -0.008289935, y: 0.07049231, z: -0.0053807357}
+      rotation: {x: -0.048565265, y: 0.20354842, z: 0.6310037, w: 0.74702334}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowTopCurveLctr
+      parentName: Bony_curveNodesG
+      position: {x: -0.021927003, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: -0.12234193, y: 0, z: -0, w: 0.992488}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonylUpperArmTopClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.0071114907, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: 0.3649893, y: -2.1880822e-16, z: 2.0513272e-17, w: 0.93101174}
+      scale: {x: 0, y: 1, z: 1}
+    - name: BonylUpperArmTopClstr
+      parentName: BonylUpperArmTopClstrG
+      position: {x: -0.0012346262, y: 0, z: 9.3132255e-12}
+      rotation: {x: -1.6869334e-11, y: 0.00010482733, z: -0.00000016092496, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmBtmClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.010079725, y: 0.056817915, z: 0.00003286045}
+      rotation: {x: 0.00982694, y: 0.13375027, z: 0.63279265, w: 0.762619}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_lUpperArmBtmClstr
+      parentName: Bony_lUpperArmBtmClstrG
+      position: {x: 0.0012346267, y: 0, z: 9.3132255e-12}
+      rotation: {x: -1.6869334e-11, y: 0.00010482733, z: -0.00000016092496, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmTopGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.0071114907, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: 0.3649893, y: -2.1880822e-16, z: 2.0513272e-17, w: 0.93101174}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_lUpperArmTopGuideClstr
+      parentName: Bony_lUpperArmTopGuideClstrG
+      position: {x: -0.0024692523, y: 0, z: 9.3132255e-12}
+      rotation: {x: -1.6869334e-11, y: 0.00010482733, z: -0.00000016092496, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmBtmGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.010079725, y: 0.056817915, z: 0.00003286045}
+      rotation: {x: 0.00982694, y: 0.13375027, z: 0.63279265, w: 0.762619}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_lUpperArmBtmGuideClstr
+      parentName: Bony_lUpperArmBtmGuideClstrG
+      position: {x: 0.0024692535, y: 0, z: 9.3132255e-12}
+      rotation: {x: -1.6869334e-11, y: 0.00010482733, z: -0.00000016092496, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowCurveCG
+      parentName: Bony_curveNodesG
+      position: {x: -0.010079725, y: 0.056817915, z: 0.00003286045}
+      rotation: {x: 0.00982694, y: 0.13375027, z: 0.63279265, w: 0.762619}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowCurveC
+      parentName: Bony_lElbowCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonyrElbowCurveLctr
+      parentName: Bony_curveNodesG
+      position: {x: 0.011558471, y: 0.05689862, z: -0.0008591461}
+      rotation: {x: 0.71610135, y: -0.6362077, z: 0.28532997, w: -0.03202232}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonyrLowerArmTopClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.010331959, y: 0.056880414, z: -0.00065954}
+      rotation: {x: 0.76438963, y: -0.6297665, z: 0.13400574, w: -0.033838462}
+      scale: {x: 0, y: 1, z: 1}
+    - name: BonyrLowerArmTopClstr
+      parentName: BonyrLowerArmTopClstrG
+      position: {x: 0.0011402178, y: 0, z: 0}
+      rotation: {x: 1, y: -0.00000017078591, z: 0.00011350492, w: 0.000030514188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonyrLowerArmBtmClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.01193684, y: 0.044181295, z: 0.0041747475}
+      rotation: {x: 0.71610135, y: -0.6362077, z: 0.28532997, w: -0.03202232}
+      scale: {x: 0, y: 1, z: 1}
+    - name: BonyrLowerArmBtmClstr
+      parentName: BonyrLowerArmBtmClstrG
+      position: {x: -0.0011402178, y: 0, z: 0}
+      rotation: {x: 1, y: -0.00000017078591, z: 0.00011350492, w: 0.000030514188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonyrLowerArmTopGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.010331959, y: 0.056880414, z: -0.00065954}
+      rotation: {x: 0.76438963, y: -0.6297665, z: 0.13400574, w: -0.033838462}
+      scale: {x: 0, y: 1, z: 1}
+    - name: BonyrLowerArmTopGuideClstr
+      parentName: BonyrLowerArmTopGuideClstrG
+      position: {x: 0.0022804332, y: 0, z: 0}
+      rotation: {x: 1, y: -0.00000017078591, z: 0.00011350492, w: 0.000030514188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonyrLowerArmBtmGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.01193684, y: 0.044181295, z: 0.0041747475}
+      rotation: {x: 0.71610135, y: -0.6362077, z: 0.28532997, w: -0.03202232}
+      scale: {x: 0, y: 1, z: 1}
+    - name: BonyrLowerArmBtmGuideClstr
+      parentName: BonyrLowerArmBtmGuideClstrG
+      position: {x: -0.0022804332, y: 0, z: 0}
+      rotation: {x: 1, y: -0.00000017078591, z: 0.00011350492, w: 0.000030514188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rShoulderCurveLctr
+      parentName: Bony_curveNodesG
+      position: {x: 0.008594195, y: 0.07063101, z: -0.005894103}
+      rotation: {x: 0.74681246, y: -0.6299486, z: 0.21099278, w: 0.030297922}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowTopCurveLctr
+      parentName: Bony_curveNodesG
+      position: {x: -0.0077040223, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: 0.99396515, y: -0, z: 0, w: 0.10969651}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmTopClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.0071114907, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: 0.91647905, y: -1.6482662e-15, z: 3.5626582e-16, w: -0.40008262}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_rUpperArmTopClstr
+      parentName: Bony_rUpperArmTopClstrG
+      position: {x: 0.0012346262, y: 0, z: 0}
+      rotation: {x: 1, y: -0.00000016092496, z: -0.00010482733, w: 1.6869516e-11}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmBtmClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.010331959, y: 0.056880414, z: -0.00065954}
+      rotation: {x: 0.76438963, y: -0.6297665, z: 0.13400574, w: -0.033838462}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_rUpperArmBtmClstr
+      parentName: Bony_rUpperArmBtmClstrG
+      position: {x: -0.0012346267, y: 0, z: 0}
+      rotation: {x: 1, y: -0.00000016092496, z: -0.00010482733, w: 1.6869738e-11}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmTopGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.0071114907, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_rUpperArmTopGuideClstr
+      parentName: Bony_rUpperArmTopGuideClstrG
+      position: {x: 0.0024692523, y: 0, z: 0}
+      rotation: {x: 1, y: -0.00000016092496, z: -0.00010482733, w: 1.6869516e-11}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmBtmGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.010331959, y: 0.056880414, z: -0.00065954}
+      rotation: {x: 0.76438963, y: -0.6297665, z: 0.13400574, w: -0.033838462}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_rUpperArmBtmGuideClstr
+      parentName: Bony_rUpperArmBtmGuideClstrG
+      position: {x: -0.0024692535, y: 0, z: 0}
+      rotation: {x: 1, y: -0.00000016092496, z: -0.00010482733, w: 1.6869738e-11}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowCurveCG
+      parentName: Bony_curveNodesG
+      position: {x: 0.010331959, y: 0.056880414, z: -0.00065954}
+      rotation: {x: 0.76438963, y: -0.6297665, z: 0.13400574, w: -0.033838462}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowCurveC
+      parentName: Bony_rElbowCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeCurveLctr
+      parentName: Bony_curveNodesG
+      position: {x: -0.0045971647, y: 0.026272992, z: -0.00042682778}
+      rotation: {x: 0.5063323, y: 0.49363655, z: 0.50633585, w: 0.49353278}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegTopClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.0046767537, y: 0.026269065, z: -0.00029538973}
+      rotation: {x: 0.5002944, y: 0.5004762, z: 0.5016281, w: 0.49759263}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_lLowerLegTopClstr
+      parentName: Bony_lLowerLegTopClstrG
+      position: {x: -0.0016784429, y: 0, z: 0}
+      rotation: {x: 0.5133574, y: 0.48516992, z: 0.514443, w: -0.48623335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegBtmClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.0045950287, y: 0.006138238, z: -0.0009403652}
+      rotation: {x: 0.5063323, y: 0.49363655, z: 0.50633585, w: 0.49353278}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_lLowerLegBtmClstr
+      parentName: Bony_lLowerLegBtmClstrG
+      position: {x: 0.0016784435, y: 0, z: 0}
+      rotation: {x: 0.5133574, y: 0.48516992, z: 0.514443, w: -0.48623335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegTopGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.0046767537, y: 0.026269065, z: -0.00029538973}
+      rotation: {x: 0.5002944, y: 0.5004762, z: 0.5016281, w: 0.49759263}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_lLowerLegTopGuideClstr
+      parentName: Bony_lLowerLegTopGuideClstrG
+      position: {x: -0.0033568859, y: 0, z: 0}
+      rotation: {x: 0.5133574, y: 0.48516992, z: 0.514443, w: -0.48623335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegBtmGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.0045950287, y: 0.006138238, z: -0.0009403652}
+      rotation: {x: 0.5063323, y: 0.49363655, z: 0.50633585, w: 0.49353278}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_lLowerLegBtmGuideClstr
+      parentName: Bony_lLowerLegBtmGuideClstrG
+      position: {x: 0.003356887, y: 0, z: 0}
+      rotation: {x: 0.5133574, y: 0.48516992, z: 0.514443, w: -0.48623335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lHipCurveLctr
+      parentName: Bony_curveNodesG
+      position: {x: -0.0047554104, y: 0.045353517, z: 0.00031536873}
+      rotation: {x: 0.5071037, y: 0.49315023, z: 0.5087698, w: 0.4907158}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeTopCurveLctr
+      parentName: Bony_curveNodesG
+      position: {x: -0.005997649, y: 0.026351482, z: 0.0017206265}
+      rotation: {x: -0.03700639, y: -0.005602888, z: -0.032392215, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegTopClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.0047542267, y: 0.04535352, z: 0.00031606003}
+      rotation: {x: 0.49870828, y: 0.50274754, z: 0.46334124, w: 0.53277564}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_lUpperLegTopClstr
+      parentName: Bony_lUpperLegTopClstrG
+      position: {x: -0.0015912008, y: 0, z: 0}
+      rotation: {x: -0.4996768, y: -0.49962044, z: -0.5003357, w: 0.50036657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegBtmClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.0046767537, y: 0.026269065, z: -0.00029538973}
+      rotation: {x: 0.5002944, y: 0.5004762, z: 0.5016281, w: 0.49759263}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_lUpperLegBtmClstr
+      parentName: Bony_lUpperLegBtmClstrG
+      position: {x: 0.0015911984, y: -0.000000029690563, z: -0.000000050663946}
+      rotation: {x: -0.49948147, y: -0.49939993, z: -0.50054, w: 0.50057733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegTopGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.0047542267, y: 0.04535352, z: 0.00031606003}
+      rotation: {x: -0.0000000017165273, y: 0.050399005, z: 0.6818359, w: 0.72976696}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_lUpperLegTopGuideClstr
+      parentName: Bony_lUpperLegTopGuideClstrG
+      position: {x: -0.0031824016, y: 0, z: 0}
+      rotation: {x: -0.4996768, y: -0.49962044, z: -0.5003357, w: 0.50036657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegBtmGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: -0.0046767537, y: 0.026269065, z: -0.00029538973}
+      rotation: {x: 0.5002944, y: 0.5004762, z: 0.5016281, w: 0.49759263}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_lUpperLegBtmGuideClstr
+      parentName: Bony_lUpperLegBtmGuideClstrG
+      position: {x: 0.003182399, y: -0.000000059381126, z: -0.00000010102987}
+      rotation: {x: -0.49948147, y: -0.49939993, z: -0.50054, w: 0.50057733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeCurveCG
+      parentName: Bony_curveNodesG
+      position: {x: -0.0046767537, y: 0.026269065, z: -0.00029538973}
+      rotation: {x: 0.5002944, y: 0.5004762, z: 0.5016281, w: 0.49759263}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeCurveC
+      parentName: Bony_lKneeCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeCurveLctr
+      parentName: Bony_curveNodesG
+      position: {x: 0.0045938254, y: 0.025983114, z: -0.00094989856}
+      rotation: {x: 0.5000005, y: -0.49999958, z: 0.5000005, w: -0.49999958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegTopClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.004509445, y: 0.025744466, z: 0.002140463}
+      rotation: {x: -0.50086653, y: 0.5006348, z: -0.49698767, w: 0.5014985}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_rLowerLegTopClstr
+      parentName: Bony_rLowerLegTopClstrG
+      position: {x: 0.0016784429, y: 0, z: 0}
+      rotation: {x: 0.48623335, y: -0.5144429, z: 0.4851699, w: 0.5133574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegBtmClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.0045938254, y: 0.0058418126, z: -0.00094986253}
+      rotation: {x: 0.5000005, y: -0.49999958, z: 0.5000005, w: -0.49999958}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_rLowerLegBtmClstr
+      parentName: Bony_rLowerLegBtmClstrG
+      position: {x: -0.0016784435, y: 0, z: 0}
+      rotation: {x: 0.48623335, y: -0.5144429, z: 0.4851699, w: 0.5133574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegTopGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.004509445, y: 0.025744466, z: 0.002140463}
+      rotation: {x: -0.50086653, y: 0.5006348, z: -0.49698767, w: 0.5014985}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_rLowerLegTopGuideClstr
+      parentName: Bony_rLowerLegTopGuideClstrG
+      position: {x: 0.0033568859, y: 0, z: 0}
+      rotation: {x: 0.48623335, y: -0.5144429, z: 0.4851699, w: 0.5133574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegBtmGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.0045938254, y: 0.0058418126, z: -0.00094986253}
+      rotation: {x: 0.5000005, y: -0.49999958, z: 0.5000005, w: -0.49999958}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_rLowerLegBtmGuideClstr
+      parentName: Bony_rLowerLegBtmGuideClstrG
+      position: {x: -0.003356887, y: 0, z: 0}
+      rotation: {x: 0.48623335, y: -0.5144429, z: 0.4851699, w: 0.5133574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rHipCurveLctr
+      parentName: Bony_curveNodesG
+      position: {x: 0.004430629, y: 0.0446127, z: 0.0050694663}
+      rotation: {x: -0.46222138, y: 0.5369048, z: -0.4578794, w: 0.5370578}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeTopCurveLctr
+      parentName: Bony_curveNodesG
+      position: {x: 0.0056569916, y: 0.06376488, z: -0.000963651}
+      rotation: {x: -0.03700639, y: -0.005602888, z: -0.032392215, w: 0.99877423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegTopClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.0044135703, y: 0.044762842, z: 0.00044091544}
+      rotation: {x: 0.50551254, y: -0.50188905, z: 0.5297803, w: -0.460323}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_rUpperLegTopClstr
+      parentName: Bony_rUpperLegTopClstrG
+      position: {x: 0.0015912008, y: 0, z: 0}
+      rotation: {x: 0.5003827, y: -0.5003519, z: 0.49960425, w: 0.49966058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegBtmClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.004509445, y: 0.025744466, z: 0.002140463}
+      rotation: {x: -0.50086653, y: 0.5006348, z: -0.49698767, w: 0.5014985}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_rUpperLegBtmClstr
+      parentName: Bony_rUpperLegBtmClstrG
+      position: {x: -0.0015911984, y: 0.000000029690563, z: 0.000000050365923}
+      rotation: {x: 0.50059354, y: -0.5005562, z: 0.49938372, w: 0.49946526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegTopGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.0044135703, y: 0.044762842, z: 0.00044091544}
+      rotation: {x: 0.0000000011722114, y: -0.053795155, z: -0.7277815, w: 0.683696}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_rUpperLegTopGuideClstr
+      parentName: Bony_rUpperLegTopGuideClstrG
+      position: {x: 0.0031824016, y: 0, z: 0}
+      rotation: {x: 0.5003827, y: -0.5003519, z: 0.49960425, w: 0.49966058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegBtmGuideClstrG
+      parentName: Bony_curveNodesG
+      position: {x: 0.004509445, y: 0.025744466, z: 0.002140463}
+      rotation: {x: -0.50086653, y: 0.5006348, z: -0.49698767, w: 0.5014985}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Bony_rUpperLegBtmGuideClstr
+      parentName: Bony_rUpperLegBtmGuideClstrG
+      position: {x: -0.003182399, y: 0.000000059381126, z: 0.00000010102987}
+      rotation: {x: 0.50059354, y: -0.5005562, z: 0.49938372, w: 0.49946526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeCurveCG
+      parentName: Bony_curveNodesG
+      position: {x: 0.004509445, y: 0.025744466, z: 0.002140463}
+      rotation: {x: -0.50086653, y: 0.5006348, z: -0.49698767, w: 0.5014985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeCurveC
+      parentName: Bony_rKneeCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Skeleton_Grp
+      parentName: Bony_Main_CNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.23649226, y: -0.003392158, z: 0.86881113, w: 0.4350025}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_ROOTJ
+      parentName: Bony_Skeleton_Grp
+      position: {x: 1.3322676e-17, y: 0.047661144, z: 0.00018608513}
+      rotation: {x: 0.73276925, y: -0.018542035, z: -0.6464513, w: 0.21167473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lHipJ
+      parentName: Bony_ROOTJ
+      position: {x: -0.004593827, y: -0.0026156208, z: 2.7755575e-19}
+      rotation: {x: 0.5118873, y: 0.493308, z: 0.53905696, w: 0.45170367}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeJ
+      parentName: Bony_lHipJ
+      position: {x: -0.019094404, y: -3.2612801e-18, z: 1.6653345e-18}
+      rotation: {x: -0.00037229375, y: 0.00000009047362, z: 0.000000019087157, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lAnkleJ
+      parentName: Bony_lKneeJ
+      position: {x: -0.020141322, y: 1.2767564e-17, z: 1.6653345e-18}
+      rotation: {x: -0.46491322, y: -0.08532318, z: -0.61181736, w: 0.634236}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lBallJ
+      parentName: Bony_lAnkleJ
+      position: {x: -0.007986748, y: 3.8857806e-18, z: 1.110223e-18}
+      rotation: {x: 0.000029403407, y: -0.0000657154, z: -0.40082517, w: 0.91615456}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lToeJ
+      parentName: Bony_lBallJ
+      position: {x: -0.007416458, y: -2.1674593e-18, z: 3.0531134e-17}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLegUpLctr
+      parentName: Bony_lHipJ
+      position: {x: -0.019094404, y: -3.2612801e-18, z: 1.6653345e-18}
+      rotation: {x: -0.00036923616, y: 0.00005047978, z: -0.014085222, w: 0.99990076}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rHipJ
+      parentName: Bony_ROOTJ
+      position: {x: 0.004593827, y: -0.0026156208, z: -6.245004e-19}
+      rotation: {x: -0.523559, y: 0.48090038, z: -0.48332986, w: 0.5108944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeJ
+      parentName: Bony_rHipJ
+      position: {x: 0.019094404, y: 2.4633073e-18, z: 5.551115e-19}
+      rotation: {x: -0.00033375437, y: 0.000074528885, z: 0.121284395, w: 0.9926178}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rAnkleJ
+      parentName: Bony_rKneeJ
+      position: {x: 0.020141322, y: -6.0229595e-17, z: 7.771561e-18}
+      rotation: {x: 0.00074332993, y: 0.002689871, z: -0.43694466, w: 0.8994841}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rBallJ
+      parentName: Bony_rAnkleJ
+      position: {x: 0.007986748, y: -2.7755574e-18, z: 0}
+      rotation: {x: -1.32063605e-11, y: 5.7432613e-12, z: -0.39880586, w: 0.9170354}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rToeJ
+      parentName: Bony_rBallJ
+      position: {x: 0.007416458, y: 2.7728943e-18, z: 4.1633363e-17}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLegUpLctr
+      parentName: Bony_rHipJ
+      position: {x: 0.019094404, y: 2.4633073e-18, z: 0}
+      rotation: {x: -0.00033923416, y: 0.000027607883, z: 0.046689186, w: 0.9989094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeCurveJ
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.004509445, y: 0.025744466, z: 0.002140463}
+      rotation: {x: -0.50086653, y: 0.5006348, z: -0.49698767, w: 0.5014985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rHipCurveJ
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.0044135703, y: 0.044762842, z: 0.00044091544}
+      rotation: {x: -0.52001333, y: -0.47793412, z: 0.523539, w: 0.47652072}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegCurveJ1
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.0044375723, y: 0.040008366, z: 0.00086577184}
+      rotation: {x: 0.5235389, y: -0.47652078, z: 0.5200136, w: -0.47793397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegCurveJ2
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.00446157, y: 0.035253655, z: 0.0012906523}
+      rotation: {x: 0.5235387, y: -0.47652087, z: 0.5200141, w: -0.47793344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperLegCurveJ3
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.0044855573, y: 0.030498926, z: 0.0017155407}
+      rotation: {x: 0.52353823, y: -0.47652122, z: 0.52001584, w: -0.4779318}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegCurveJ1
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.0045305397, y: 0.020768933, z: 0.001367902}
+      rotation: {x: -0.46179968, y: 0.53653944, z: -0.4582911, w: 0.5374344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegCurveJ2
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.004551635, y: 0.01579314, z: 0.0005953006}
+      rotation: {x: -0.46159723, y: 0.53636676, z: -0.45849317, w: 0.5376083}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerLegCurveJ3
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.0045727305, y: 0.010817346, z: -0.00017730113}
+      rotation: {x: -0.46139488, y: 0.53619426, z: -0.45869493, w: 0.537782}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowCurveJ
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.010331959, y: 0.056880414, z: -0.00065954}
+      rotation: {x: 0.7643897, y: -0.6297666, z: 0.13400568, w: -0.033838365}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmCurveJ1
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.0078535285, y: 0.06770365, z: -0.00009181383}
+      rotation: {x: 0.06815338, y: 0.06283668, z: 0.62918884, w: 0.7717047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmCurveJ2
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.008595606, y: 0.06407501, z: -0.00005025514}
+      rotation: {x: 0.06815338, y: 0.06283667, z: 0.6291888, w: 0.77170473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperArmCurveJ3
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.009337684, y: 0.060446367, z: -0.000008696362}
+      rotation: {x: 0.06815338, y: 0.06283668, z: 0.62918866, w: 0.7717048}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmCurveJ1
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.010492947, y: 0.053660817, z: 0.0012827363}
+      rotation: {x: -0.032167725, y: 0.21734041, z: 0.626387, w: 0.74790895}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmCurveJ2
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.01090619, y: 0.05050355, z: 0.002532676}
+      rotation: {x: -0.0157333, y: 0.23104554, z: 0.62146235, w: 0.748435}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerArmCurveJ3
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.011319432, y: 0.047346283, z: 0.0037826165}
+      rotation: {x: 0.0007087665, y: 0.24463934, z: 0.61623794, w: 0.7486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_spine01J
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.00015866873, y: 0.05322719, z: 0.00013354629}
+      rotation: {x: 0.03220364, y: -0.0056374236, z: -0.01615746, w: 0.9993349}
+      scale: {x: 0.98016167, y: 1.0202398, z: 0.98016167}
+    - name: Bony_spine02J
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.00005249496, y: 0.058822762, z: 0.0005440015}
+      rotation: {x: 0.035898406, y: -0.0034740062, z: -0.0020786193, w: 0.99934727}
+      scale: {x: 0.98016167, y: 1.0202398, z: 0.98016167}
+    - name: Bony_spine03J
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.000013018107, y: 0.06444747, z: 0.00094773795}
+      rotation: {x: 0.020951515, y: -0.0016851203, z: -0.0000697507, w: 0.9997791}
+      scale: {x: 0.98016167, y: 1.0202398, z: 0.98016167}
+    - name: Bony_Neck02J
+      parentName: Bony_Skeleton_Grp
+      position: {x: 8.7381466e-18, y: 0.07641716, z: -0.000932103}
+      rotation: {x: -0.06675178, y: 0, z: -0, w: 0.99776965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Spine04J
+      parentName: Bony_Skeleton_Grp
+      position: {x: 6.746986e-18, y: 0.06997517, z: 0.000311863}
+      rotation: {x: 0.558968, y: -0.43307593, z: 0.558968, w: -0.43307593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lClavicleJ
+      parentName: Bony_Spine04J
+      position: {x: -0.0014251301, y: 0.00009218554, z: -0.0038826417}
+      rotation: {x: 0.5017857, y: -0.4982079, z: 0.5017857, w: 0.4982079}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lShoulderJ
+      parentName: Bony_lClavicleJ
+      position: {x: -0.003228849, y: 0, z: 3.4694467e-19}
+      rotation: {x: 0.16205326, y: -0.014611497, z: 0.6321498, w: 0.75756973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowJ
+      parentName: Bony_lShoulderJ
+      position: {x: -0.014815512, y: -8.881784e-18, z: -5.427516e-15}
+      rotation: {x: 0.000029994892, y: 0.18370055, z: 0.0000056054705, w: 0.9829823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristJDummy
+      parentName: Bony_lElbowJ
+      position: {x: -0.013682604, y: 0, z: 1.7347234e-20}
+      rotation: {x: -0.000030514188, y: -0.00011350492, z: -0.00000017078591, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lForearmJ
+      parentName: Bony_lElbowJ
+      position: {x: -0.006841302, y: 1.6534172e-20, z: -1.3322677e-17}
+      rotation: {x: 0.08775788, y: -0, z: -0, w: 0.99614185}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonylArmUpLctr
+      parentName: Bony_lShoulderJ
+      position: {x: -0.014821802, y: 1.7763568e-17, z: -0.029998116}
+      rotation: {x: 0.00000001481, y: 0.09223924, z: -0.0000001602358, w: 0.9957369}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rClavicleJ
+      parentName: Bony_Spine04J
+      position: {x: -0.0014251301, y: 0.00009218554, z: 0.0038826417}
+      rotation: {x: -0.49177924, y: -0.50808775, z: -0.49177924, w: 0.50808775}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rShoulderJ
+      parentName: Bony_rClavicleJ
+      position: {x: 0.003228849, y: -8.881784e-18, z: 3.4694467e-19}
+      rotation: {x: 0.18196379, y: -0.013028059, z: 0.62541556, w: 0.7586665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowJ
+      parentName: Bony_rShoulderJ
+      position: {x: 0.014815512, y: 0, z: 5.4293546e-15}
+      rotation: {x: 0.000029884284, y: 0.20214134, z: 0.0000061681826, w: 0.97935635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristJDummy
+      parentName: Bony_rElbowJ
+      position: {x: 0.013682604, y: 0, z: -1.7347234e-20}
+      rotation: {x: -0.000030514188, y: -0.00011350492, z: -0.00000017078591, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rForearmJ
+      parentName: Bony_rElbowJ
+      position: {x: 0.006841302, y: 1.6805194e-20, z: 8.881785e-18}
+      rotation: {x: 0.9957564, y: 0, z: 0, w: -0.09202883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BonyrArmUpLctr
+      parentName: Bony_rShoulderJ
+      position: {x: 0.014821173, y: 1.7763568e-17, z: 0.026998116}
+      rotation: {x: -0.000000016348695, y: 0.10159204, z: 0.00000016009236, w: 0.99482614}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Neck01J
+      parentName: Bony_Spine04J
+      position: {x: -0.0043491037, y: -0.00014191192, z: 3.221501e-18}
+      rotation: {x: 1.1102232e-16, y: 3.6082254e-16, z: 0.059390616, w: 0.99823487}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_HeadJ
+      parentName: Bony_Skeleton_Grp
+      position: {x: 9.510096e-18, y: 0.07861247, z: -0.0012271596}
+      rotation: {x: 0.56556857, y: -0.42441985, z: 0.56556857, w: -0.42441985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_HeadTipJ
+      parentName: Bony_HeadJ
+      position: {x: -0.013744298, y: 2.4980017e-18, z: 4.577771e-18}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeCurveJ
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.0046767537, y: 0.026269065, z: -0.00029538973}
+      rotation: {x: 0.5002944, y: 0.5004762, z: 0.5016281, w: 0.49759263}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lHipCurveJ
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.0047542267, y: 0.04535352, z: 0.00031606003}
+      rotation: {x: 0.5075059, y: 0.49353704, z: 0.50837624, w: 0.49031895}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegCurveJ1
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.0047348933, y: 0.040582526, z: 0.00016318112}
+      rotation: {x: 0.50750566, y: 0.49353722, z: 0.50837624, w: 0.49031892}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegCurveJ2
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.004715553, y: 0.035811294, z: 0.000010297976}
+      rotation: {x: 0.5075052, y: 0.4935378, z: 0.5083764, w: 0.49031878}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lUpperLegCurveJ3
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.004696202, y: 0.03104005, z: -0.00014257882}
+      rotation: {x: 0.5075034, y: 0.4935394, z: 0.50837684, w: 0.49031842}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegCurveJ1
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.0046563228, y: 0.02123649, z: -0.00045662958}
+      rotation: {x: 0.50722724, y: 0.493254, z: 0.5086544, w: 0.49060342}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegCurveJ2
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.004635891, y: 0.016203653, z: -0.0006178777}
+      rotation: {x: 0.5071323, y: 0.4931556, z: 0.5087498, w: 0.49070156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lLowerLegCurveJ3
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.004615459, y: 0.011170814, z: -0.0007791257}
+      rotation: {x: 0.5070374, y: 0.49305713, z: 0.50884515, w: 0.4907997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowCurveJ
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.010079725, y: 0.056817915, z: 0.00003286045}
+      rotation: {x: 0.00982694, y: 0.13375027, z: 0.63279265, w: 0.762619}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lShoulderCurveJ
+      parentName: Bony_Skeleton_Grp
+      position: {x: -0.0071114907, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: 0.068153344, y: 0.06283672, z: 0.6291888, w: 0.7717047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rShoulderCurveJ
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.0071114907, y: 0.0713321, z: -0.00013337079}
+      rotation: {x: -0.055656504, y: -0.09764257, z: 0.774049, w: 0.62307024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmCurveJ1
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.007916587, y: 0.06771927, z: -0.00026490926}
+      rotation: {x: 0.77404886, y: -0.62307036, z: 0.055656496, w: -0.09764263}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmCurveJ2
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.008721726, y: 0.064106256, z: -0.00039645506}
+      rotation: {x: 0.7740488, y: -0.6230704, z: 0.05565649, w: -0.09764264}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rUpperArmCurveJ3
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.009526864, y: 0.060493242, z: -0.00052800105}
+      rotation: {x: 0.7740488, y: -0.6230705, z: 0.055656496, w: -0.097642645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerArmCurveJ1
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.010733168, y: 0.05370572, z: 0.000549}
+      rotation: {x: 0.7473108, y: -0.6249435, z: 0.22538655, w: 0.013160123}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerArmCurveJ2
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.011134398, y: 0.05053085, z: 0.0017576034}
+      rotation: {x: 0.7474149, y: -0.61954105, z: 0.23983796, w: -0.0041971803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rLowerArmCurveJ3
+      parentName: Bony_Skeleton_Grp
+      position: {x: 0.011535629, y: 0.04735599, z: 0.002966207}
+      rotation: {x: 0.7471184, y: -0.6138328, z: 0.25409168, w: -0.021468947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Lctr_Grp
+      parentName: Bony_Main_CNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowTwistLctr
+      parentName: Bony_Lctr_Grp
+      position: {x: -0.010079725, y: 0.056817915, z: 0.00003286045}
+      rotation: {x: -0.048586477, y: 0.20353049, z: 0.6310094, w: 0.747022}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristAimLctr
+      parentName: Bony_Lctr_Grp
+      position: {x: -0.010079725, y: 0.056817915, z: 0.00003286045}
+      rotation: {x: -0.048565265, y: 0.20354842, z: 0.6310037, w: 0.74702334}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristTwistLctr
+      parentName: Bony_lWristAimLctr
+      position: {x: -0.013682604, y: 1.7319479e-16, z: 2.8865798e-17}
+      rotation: {x: 0.087080486, y: 0.019323792, z: 0.03370375, w: 0.99544346}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowTwist75Lctr
+      parentName: Bony_Lctr_Grp
+      position: {x: -0.010079725, y: 0.056817915, z: 0.00003286045}
+      rotation: {x: -0.004782729, y: 0.15133022, z: 0.63285154, w: 0.75932556}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowTwist50Lctr
+      parentName: Bony_Lctr_Grp
+      position: {x: -0.010079725, y: 0.056817915, z: 0.00003286045}
+      rotation: {x: -0.019389838, y: 0.16882941, z: 0.6325728, w: 0.7556271}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lElbowTwist25Lctr
+      parentName: Bony_Lctr_Grp
+      position: {x: -0.010079725, y: 0.056817915, z: 0.00003286045}
+      rotation: {x: -0.033986606, y: 0.1862386, z: 0.63195676, w: 0.7515257}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowTwistLctr
+      parentName: Bony_Lctr_Grp
+      position: {x: 0.010331959, y: 0.056880414, z: -0.00065954}
+      rotation: {x: -0.21097513, y: 0.030318882, z: 0.7468116, w: 0.6299546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristAimLctr
+      parentName: Bony_Lctr_Grp
+      position: {x: 0.010331959, y: 0.056880414, z: -0.00065954}
+      rotation: {x: 0.74681246, y: -0.6299486, z: 0.21099278, w: 0.030297922}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristTwistLctr
+      parentName: Bony_rWristAimLctr
+      position: {x: 0.013682604, y: -1.9095835e-16, z: -3.7747583e-17}
+      rotation: {x: 0.09111895, y: 0.022547536, z: 0.03942209, w: 0.99480397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowTwist75Lctr
+      parentName: Bony_Lctr_Grp
+      position: {x: 0.010331959, y: 0.056880414, z: -0.00065954}
+      rotation: {x: 0.6464415, y: -0.43316627, z: -0.42956504, w: -0.45820776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowTwist50Lctr
+      parentName: Bony_Lctr_Grp
+      position: {x: 0.010331959, y: 0.056880414, z: -0.00065954}
+      rotation: {x: -0.17277934, y: -0.0017901383, z: 0.75676125, w: 0.63044155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rElbowTwist25Lctr
+      parentName: Bony_Lctr_Grp
+      position: {x: 0.010331959, y: 0.056880414, z: -0.00065954}
+      rotation: {x: 0.39595717, y: -0.43576148, z: 0.66753846, w: 0.4557656}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeTwistLctr
+      parentName: Bony_Lctr_Grp
+      position: {x: -0.0046767537, y: 0.026269065, z: -0.00029538973}
+      rotation: {x: 0.5073215, y: 0.4933518, z: 0.5085596, w: 0.49050596}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lAnkleAimLctr
+      parentName: Bony_Lctr_Grp
+      position: {x: -0.0046767537, y: 0.026269065, z: -0.00029538973}
+      rotation: {x: 0.5073204, y: 0.4933506, z: 0.5085607, w: 0.4905071}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lAnkleTwistLctr
+      parentName: Bony_lAnkleAimLctr
+      position: {x: -0.02014134, y: -4.4963513e-10, z: -7.851442e-11}
+      rotation: {x: -0.00077664497, y: -0.0019786325, z: -0.003262593, w: 0.99999243}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeTwist75Lctr
+      parentName: Bony_Lctr_Grp
+      position: {x: -0.0046767537, y: 0.026269065, z: -0.00029538973}
+      rotation: {x: 0.5020602, y: 0.49870405, z: 0.50337064, w: 0.49583048}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeTwist50Lctr
+      parentName: Bony_Lctr_Grp
+      position: {x: -0.0046767537, y: 0.026269065, z: -0.00029538973}
+      rotation: {x: 0.5038199, y: 0.49692568, z: 0.5051069, w: 0.49406216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lKneeTwist25Lctr
+      parentName: Bony_Lctr_Grp
+      position: {x: -0.0046767537, y: 0.026269065, z: -0.00029538973}
+      rotation: {x: 0.5055733, y: 0.4951412, z: 0.50683695, w: 0.49228767}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeTwistLctr
+      parentName: Bony_Lctr_Grp
+      position: {x: 0.004509445, y: 0.025744466, z: 0.002140463}
+      rotation: {x: -0.45809066, y: -0.5372619, z: 0.4620004, w: 0.53671056}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rAnkleAimLctr
+      parentName: Bony_Lctr_Grp
+      position: {x: 0.004509445, y: 0.025744466, z: 0.002140463}
+      rotation: {x: -0.46199936, y: 0.53670967, z: -0.4580917, w: 0.5372628}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rAnkleTwistLctr
+      parentName: Bony_rAnkleAimLctr
+      position: {x: 0.02014134, y: -0.000000002498804, z: -9.2493166e-11}
+      rotation: {x: 0.0016773082, y: 0.0022303772, z: -0.07694158, w: 0.9970317}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeTwist75Lctr
+      parentName: Bony_Lctr_Grp
+      position: {x: 0.004509445, y: 0.025744466, z: 0.002140463}
+      rotation: {x: -0.49140465, y: 0.50992477, z: -0.4875165, w: 0.51071113}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeTwist50Lctr
+      parentName: Bony_Lctr_Grp
+      position: {x: 0.004509445, y: 0.025744466, z: 0.002140463}
+      rotation: {x: -0.48177058, y: 0.519036, z: -0.47787452, w: 0.5197449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rKneeTwist25Lctr
+      parentName: Bony_Lctr_Grp
+      position: {x: 0.004509445, y: 0.025744466, z: 0.002140463}
+      rotation: {x: -0.47196767, y: 0.52796537, z: -0.4680651, w: 0.5285964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristJG2
+      parentName: Bony_Main_CNT
+      position: {x: -0.010079725, y: 0.056817915, z: 0.00003286045}
+      rotation: {x: -0.048516463, y: 0.20344438, z: 0.6310152, w: 0.74704516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristJG1
+      parentName: Bony_lWristJG2
+      position: {x: -0.013682604, y: -0.0000000047683715, z: 0.0000031060856}
+      rotation: {x: 0.08711468, y: 0.019435765, z: 0.033694625, w: 0.9954386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lThumbJ1CG
+      parentName: Bony_lWristJG1
+      position: {x: -0.0030867648, y: 7.9936054e-17, z: 0.0024970244}
+      rotation: {x: 0.26519665, y: 0.5605524, z: 0.009430382, w: 0.7844507}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lThumbJ1C
+      parentName: Bony_lThumbJ1CG
+      position: {x: -2.4651903e-32, y: 3.4512665e-33, z: -3.4019626e-32}
+      rotation: {x: -0.10024274, y: -0.2935292, z: 0.13738444, w: 0.94070053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lThumbJ2CG
+      parentName: Bony_lWristJG1
+      position: {x: -0.004719694, y: -0.0005906687, z: 0.0033340596}
+      rotation: {x: 0.2506145, y: 0.25967354, z: 0.09499078, w: 0.92776006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lThumbJ2C
+      parentName: Bony_lThumbJ2CG
+      position: {x: 8.881784e-18, y: 3.6082247e-18, z: 2.3592238e-17}
+      rotation: {x: 0.07387648, y: -0.15108997, z: 0.02028938, w: 0.98554677}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lThumbJ3CG
+      parentName: Bony_lWristJG1
+      position: {x: -0.0062604723, y: -0.000881322, z: 0.0036250842}
+      rotation: {x: 0.33515272, y: 0.117677934, z: 0.05539244, w: 0.93314326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lThumbJ3C
+      parentName: Bony_lThumbJ3CG
+      position: {x: 4.440892e-18, y: -3.0531133e-18, z: -9.714451e-18}
+      rotation: {x: 0.07784176, y: 0.04605852, z: 0.03542637, w: 0.99527097}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lWristJ
+      parentName: Bony_lWristJG1
+      position: {x: -8.881784e-18, y: 1.9539925e-16, z: 1.2836954e-18}
+      rotation: {x: -0.18871474, y: -0.5398083, z: -0.23328482, w: 0.7864935}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lPalmJ
+      parentName: Bony_lWristJ
+      position: {x: -0.0021099048, y: -1.3322676e-17, z: -2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger2J1
+      parentName: Bony_lPalmJ
+      position: {x: -0.0031835972, y: -2.1316282e-16, z: -0.0007234736}
+      rotation: {x: -0.023845185, y: 0.03525701, z: 0.08095474, w: 0.9958086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger2J2
+      parentName: Bony_lFinger2J1
+      position: {x: -0.0018947292, y: 2.220446e-18, z: -6.661338e-18}
+      rotation: {x: -0.013428436, y: 0.019855017, z: 0.04558973, w: 0.99867266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger2J3
+      parentName: Bony_lFinger2J2
+      position: {x: -0.0017853284, y: -2.6645352e-17, z: 4.440892e-18}
+      rotation: {x: -0.023678362, y: -0.024332581, z: 0.05938008, w: 0.9976579}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger2JTip
+      parentName: Bony_lFinger2J3
+      position: {x: -0.0018619089, y: 0, z: -1.3877787e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger1J1
+      parentName: Bony_lPalmJ
+      position: {x: -0.0031461173, y: -1.1546319e-16, z: 0.0017782907}
+      rotation: {x: -0.032754663, y: 0.048430394, z: 0.11120254, w: 0.99207646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger1J2
+      parentName: Bony_lFinger1J1
+      position: {x: -0.0018400287, y: -1.11022296e-17, z: -1.3322676e-17}
+      rotation: {x: -0.005495761, y: 0.008125922, z: 0.018658185, w: 0.9997778}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger1J3
+      parentName: Bony_lFinger1J2
+      position: {x: -0.0018564389, y: -4.8849813e-17, z: -2.6645352e-17}
+      rotation: {x: 0.04741674, y: 0.001974452, z: 0.022702165, w: 0.99861526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lFinger1JTip
+      parentName: Bony_lFinger1J3
+      position: {x: -0.0019220795, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lThumbJ1
+      parentName: Bony_lWristJ
+      position: {x: -0.0030867648, y: -1.4210854e-16, z: 0.0024970244}
+      rotation: {x: 0.028832894, y: 0.22014126, z: 0.08660665, w: 0.97118783}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lThumbJ2
+      parentName: Bony_lThumbJ1
+      position: {x: -0.0019276867, y: 1.5543122e-17, z: 3.1086245e-17}
+      rotation: {x: 0.15022992, y: 0.4993055, z: 0.1562582, w: 0.83887327}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lThumbJ3
+      parentName: Bony_lThumbJ2
+      position: {x: -0.0015947329, y: 0, z: -8.881784e-18}
+      rotation: {x: 0.07784175, y: 0.026531953, z: 0.051695943, w: 0.99527097}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_lThumbJTip
+      parentName: Bony_lThumbJ3
+      position: {x: -0.001377409, y: -6.217249e-17, z: 4.440892e-18}
+      rotation: {x: 0.15464598, y: -0.68998885, z: -0.15464598, w: 0.68998885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristJG2
+      parentName: Bony_Main_CNT
+      position: {x: 0.010331959, y: 0.056880414, z: -0.00065954}
+      rotation: {x: -0.030249245, y: -0.2108888, z: -0.62995845, w: 0.74683553}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristJG1
+      parentName: Bony_rWristJG2
+      position: {x: 0.013682604, y: -0.0000000047683715, z: 0.0000031060856}
+      rotation: {x: 0.9947986, y: -0.039412607, z: 0.022659251, w: -0.09115352}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rThumbJ1CG
+      parentName: Bony_rWristJG1
+      position: {x: 0.0030867648, y: -1.0658141e-16, z: -0.0024970244}
+      rotation: {x: 0.26519665, y: 0.5605524, z: 0.009430382, w: 0.7844507}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rThumbJ1C
+      parentName: Bony_rThumbJ1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.080824636, y: -0.36036792, z: 0.24076928, w: 0.8975704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rThumbJ2CG
+      parentName: Bony_rWristJG1
+      position: {x: 0.004837435, y: 0.0007126921, z: -0.002875439}
+      rotation: {x: 0.31299198, y: 0.15583093, z: 0.14707404, w: 0.9252686}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rThumbJ2C
+      parentName: Bony_rThumbJ2CG
+      position: {x: 5.5511148e-18, y: -8.326672e-18, z: -4.440892e-18}
+      rotation: {x: 0.09448456, y: -0.1942685, z: 0.25042722, w: 0.94372594}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rThumbJ3CG
+      parentName: Bony_rWristJG1
+      position: {x: 0.006124521, y: 0.0013606417, z: -0.0021922525}
+      rotation: {x: 0.4503984, y: -0.097174324, z: 0.29498196, w: 0.8370688}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rThumbJ3C
+      parentName: Bony_rThumbJ3CG
+      position: {x: 1.6653344e-17, y: 1.5265567e-18, z: -5.551115e-19}
+      rotation: {x: -0.08857117, y: -0.022765238, z: 0.054271832, w: 0.9943297}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rWristJ
+      parentName: Bony_rWristJG1
+      position: {x: -0, y: -2.1316282e-16, z: 1.7867651e-18}
+      rotation: {x: -0.1562336, y: 0.14856632, z: -0.7522963, w: 0.6225507}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rPalmJ
+      parentName: Bony_rWristJ
+      position: {x: 0.0021099048, y: 1.3322676e-17, z: 8.881784e-18}
+      rotation: {x: -0.06486182, y: -0.10806278, z: 0.08027938, w: 0.9887723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger1J1
+      parentName: Bony_rPalmJ
+      position: {x: 0.0031461173, y: 1.1990408e-16, z: -0.0017782907}
+      rotation: {x: 0.99011534, y: -0.019701457, z: -0.13466424, w: 0.033897992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger1J2
+      parentName: Bony_rFinger1J1
+      position: {x: 0.0018400287, y: 5.839773e-16, z: 1.04360964e-16}
+      rotation: {x: -0.013673292, y: -0.03255299, z: -0.06552091, w: 0.99722636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger1J3
+      parentName: Bony_rFinger1J2
+      position: {x: 0.0018564389, y: -3.1592783e-16, z: -5.3290704e-17}
+      rotation: {x: -0.027328083, y: -0.021952016, z: -0.024052586, w: 0.999096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger1JTip
+      parentName: Bony_rFinger1J3
+      position: {x: 0.0019220795, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger2J1
+      parentName: Bony_rPalmJ
+      position: {x: 0.0031835972, y: 2.176037e-16, z: 0.0007234736}
+      rotation: {x: 0.9314515, y: 0.011598251, z: 0.36333984, w: -0.01574036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger2J2
+      parentName: Bony_rFinger2J1
+      position: {x: 0.0018947292, y: 2.664535e-16, z: -2.220446e-18}
+      rotation: {x: -0.005993704, y: 0.112861454, z: 0.012929135, w: 0.9935085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger2J3
+      parentName: Bony_rFinger2J2
+      position: {x: 0.0017853284, y: 2.439715e-16, z: 3.8635761e-16}
+      rotation: {x: -0.017643645, y: 0.021499034, z: -0.021023871, w: 0.99939203}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rFinger2JTip
+      parentName: Bony_rFinger2J3
+      position: {x: 0.0018619089, y: 0, z: -1.3877787e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rThumbJ1
+      parentName: Bony_rWristJ
+      position: {x: 0.0030867648, y: 1.2434498e-16, z: -0.0024970244}
+      rotation: {x: 0.7322873, y: 0.057355512, z: 0.6775304, w: -0.03766058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rThumbJ2
+      parentName: Bony_rThumbJ1
+      position: {x: -0.0019276867, y: 1.9984014e-17, z: -2.2204459e-17}
+      rotation: {x: -0.093874946, y: -0.10452359, z: -0.035779092, w: 0.9894354}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rThumbJ3
+      parentName: Bony_rThumbJ2
+      position: {x: -0.0015947329, y: 2.7755576e-17, z: 9.436896e-18}
+      rotation: {x: 0.08888403, y: 0.012467787, z: 0.015256839, w: 0.99584717}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_rThumbJTip
+      parentName: Bony_rThumbJ3
+      position: {x: -0.001377409, y: -7.105427e-17, z: -3.1086245e-17}
+      rotation: {x: -0.15464598, y: -0.68998885, z: 0.15464598, w: 0.68998885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_Mesh_Grp
+      parentName: Arrodilla(Clone)
+      position: {x: 8.881784e-18, y: -0.061885193, z: -0.0013331932}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_body_Grp
+      parentName: Bony_Mesh_Grp
+      position: {x: -0, y: 0.015472649, z: -0.0048780716}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_spine1
+      parentName: Bony_body_Grp
+      position: {x: -0, y: -0.015472649, z: 0.0048780716}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_spine2
+      parentName: Bony_body_Grp
+      position: {x: -0, y: -0.015472649, z: 0.0048780716}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_chest
+      parentName: Bony_body_Grp
+      position: {x: -0, y: -0.015472649, z: 0.0048780716}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_neck
+      parentName: Bony_body_Grp
+      position: {x: -0, y: -0.015472649, z: 0.0048780716}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_head
+      parentName: Bony_body_Grp
+      position: {x: -0, y: -0.015472649, z: 0.0048780716}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_leg_Grp
+      parentName: Bony_Mesh_Grp
+      position: {x: -0, y: 0, z: 0.0002070907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_foot
+      parentName: Bony_L_leg_Grp
+      position: {x: -0, y: 0, z: -0.0002070907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_toe
+      parentName: Bony_L_leg_Grp
+      position: {x: -0, y: 0, z: -0.0002070907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_ankle
+      parentName: Bony_L_leg_Grp
+      position: {x: -0, y: 0, z: -0.0002070907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_knee
+      parentName: Bony_L_leg_Grp
+      position: {x: -0, y: 0, z: -0.0002070907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_but
+      parentName: Bony_L_leg_Grp
+      position: {x: -0, y: 0, z: -0.0002070907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_leg
+      parentName: Bony_L_leg_Grp
+      position: {x: -0, y: 0, z: -0.0002070907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony__L_arm_Grp
+      parentName: Bony_Mesh_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_shoulder
+      parentName: Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_elbow
+      parentName: Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_wrist
+      parentName: Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_hand
+      parentName: Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_thumb3
+      parentName: Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_thumb2
+      parentName: Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_thumb1
+      parentName: Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_index1
+      parentName: Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_index2
+      parentName: Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_index3
+      parentName: Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_pinky3
+      parentName: Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_pinky2
+      parentName: Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_pinky1
+      parentName: Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_L_arm
+      parentName: Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_pelvis
+      parentName: Bony_Mesh_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_leg_Grp
+      parentName: Bony_Mesh_Grp
+      position: {x: -0, y: 0, z: 0.0002070907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_foot
+      parentName: Bony_R_leg_Grp
+      position: {x: -0, y: 0, z: -0.0002070907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_toe
+      parentName: Bony_R_leg_Grp
+      position: {x: -0, y: 0, z: -0.0002070907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_ankle
+      parentName: Bony_R_leg_Grp
+      position: {x: -0, y: 0, z: -0.0002070907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_knee
+      parentName: Bony_R_leg_Grp
+      position: {x: -0, y: 0, z: -0.0002070907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_but
+      parentName: Bony_R_leg_Grp
+      position: {x: -0, y: 0, z: -0.0002070907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_leg
+      parentName: Bony_R_leg_Grp
+      position: {x: -0, y: 0, z: -0.0002070907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony__R_arm_Grp
+      parentName: Bony_Mesh_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_shoulder
+      parentName: Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_elbow
+      parentName: Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_wrist
+      parentName: Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_hand
+      parentName: Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_thumb3
+      parentName: Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_thumb2
+      parentName: Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_thumb1
+      parentName: Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_index1
+      parentName: Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_index2
+      parentName: Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_index3
+      parentName: Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_pinky3
+      parentName: Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_pinky2
+      parentName: Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_pinky1
+      parentName: Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bony_R_arm
+      parentName: Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Rigg_Character__2___1_:Bony_Main_CNT
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
