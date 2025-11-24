@@ -65,4 +65,5 @@ public class KatanaController : MonoBehaviour
         isDrawn = false;
         animator.SetBool("SwordDrawn", false);
     }
+
 }
