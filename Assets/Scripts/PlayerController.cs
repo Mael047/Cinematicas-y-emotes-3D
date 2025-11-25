@@ -11,7 +11,11 @@ public class PlayerController : MonoBehaviour
 
     public CharacterController player;
 
-    public float playerSpeed = 5f;
+    public float walkSpeed = 5f;
+    public float runSpeed = 10f;
+    private float currentSpeed;
+
+
     private Vector3 movePlayer;
     public float gravity = 9.8f;
     public float fallVelocity;
@@ -27,6 +31,8 @@ public class PlayerController : MonoBehaviour
     {
         player = GetComponent<CharacterController>();
         playerAnimatorController = GetComponent<Animator>();
+
+        currentSpeed = walkSpeed;
     }
 
     // Update is called once per frame
@@ -38,19 +44,31 @@ public class PlayerController : MonoBehaviour
         playerInput = new Vector3(horizontalMove, 0, verticalMove);
         playerInput = Vector3.ClampMagnitude(playerInput, 1);
 
-        playerAnimatorController.SetFloat("PlayerWalkVelocity", playerInput.magnitude * playerSpeed);
+        bool isRuning = Input.GetKey(KeyCode.LeftShift);
+        float targetSpeed = isRuning ? runSpeed : walkSpeed;
+
+        currentSpeed = Mathf.Lerp(currentSpeed, targetSpeed, 5 * Time.deltaTime);
+
+        playerAnimatorController.SetFloat("PlayerWalkVelocity", playerInput.magnitude * currentSpeed);
 
         camDirection();
 
         movePlayer = playerInput.z * camForward + playerInput.x * camRight;
 
-        movePlayer = movePlayer * playerSpeed;
+        movePlayer = movePlayer * currentSpeed;
 
         player.transform.LookAt(player.transform.position + movePlayer);
 
         SetGravity();
 
         player.Move(movePlayer * Time.deltaTime);
+
+
+        //emotes
+
+        animaciones();
+
+
     }
 
     void camDirection()
@@ -83,4 +101,55 @@ public class PlayerController : MonoBehaviour
     {
         
     }
+
+    private void desactivarAnimaciones()
+    {
+        playerAnimatorController.SetBool("dance",false);
+        playerAnimatorController.SetBool("sit",false);
+        playerAnimatorController.SetBool("reverencia",false);
+        
+    }
+
+    private void animaciones()
+    {
+        if(Input.GetKeyDown(KeyCode.U))
+        {
+            desactivarAnimaciones();
+            playerAnimatorController.SetBool("dance",true);
+        }
+        if(Input.GetKeyDown(KeyCode.I))
+        {
+            desactivarAnimaciones();
+            playerAnimatorController.SetBool("sit",true);
+        }
+        if(Input.GetKeyDown(KeyCode.O))
+        {
+            desactivarAnimaciones();
+            playerAnimatorController.SetBool("reverencia",true);
+        }
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+            desactivarAnimaciones();
+            playerAnimatorController.SetBool("pick",true);
+        }
+        if(Input.GetKeyDown(KeyCode.J))
+        {
+            desactivarAnimaciones();
+            playerAnimatorController.SetBool("sentarse",true);
+        }
+        if(Input.GetMouseButtonDown(0))
+        {
+            desactivarAnimaciones();
+            playerAnimatorController.SetTrigger("attack");
+        }
+        if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) ||Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D)  )
+        {
+            playerAnimatorController.SetBool("dance",false);
+            playerAnimatorController.SetBool("sit",false);
+            playerAnimatorController.SetBool("reverencia",false);
+            playerAnimatorController.SetBool("pick",false);
+            playerAnimatorController.SetBool("sentarse",false);
+        }
+    }
+
 }
