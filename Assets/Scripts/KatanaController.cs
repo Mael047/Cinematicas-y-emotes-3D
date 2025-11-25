@@ -13,31 +13,26 @@ public class KatanaController : MonoBehaviour
     public KeyCode drawKey = KeyCode.R;
 
     void Update()
-{
-    if (Input.GetKeyDown(drawKey))
     {
-        if (!isDrawn)
+        if (Input.GetKeyDown(drawKey))
         {
-            // Pedimos la animación de desenfundar
-            animator.SetTrigger("Draw");
-            animator.SetBool("SwordDrawn", true);
-            isDrawn = true;              // 🔹 AHORA SÍ CAMBIA
-        }
-        else
-        {
-            // Pedimos la animación de enfundar
-            animator.SetTrigger("Sheathe");
-            animator.SetBool("SwordDrawn", false);
-            isDrawn = false;              // 🔹 AHORA SÍ CAMBIA
-        }
+            if (!isDrawn)
+            {
+                animator.SetTrigger("Draw");
+                animator.SetBool("SwordDrawn", true);
+                isDrawn = true;
+            }
+            else
+            {
+                animator.SetTrigger("Sheathe");
+                animator.SetBool("SwordDrawn", false);
+                isDrawn = false;
+            }
 
-        Debug.Log("estado cambiado -> " + isDrawn);
+            Debug.Log("estado cambiado -> " + isDrawn);
+        }
     }
-}
 
-    // ---------- MÉTODOS PARA ANIMATION EVENTS ----------
-
-    // Llamar en el frame donde la espada ya está "en la mano"
     public void AttachKatanaToHand()
     {
         katana.SetParent(handSocket);
@@ -45,15 +40,12 @@ public class KatanaController : MonoBehaviour
         katana.localRotation = Quaternion.identity;
     }
 
-    // Llamar en el frame donde la espada ya está dentro de la funda
     public void AttachKatanaToHip()
     {
         katana.SetParent(hipSocket);
         katana.localPosition = Vector3.zero;
         katana.localRotation = Quaternion.identity;
     }
-
-    // Opcional: actualizar estado lógico
     public void SetSwordDrawn()
     {
         isDrawn = true;
